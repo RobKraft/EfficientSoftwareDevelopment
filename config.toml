@@ -1,0 +1,5 @@
+baseURL = 'https://www.EfficientSoftwareDevelopment.com/'
+languageCode = 'en-us'
+title = 'Efficient Software Development'
+theme = 'zdoc'
+enableToc = false
