@@ -1,12 +1,12 @@
 ---
-title: "Organizationl Structure"
-description: "The way people, teams, groups, and departments are organized and work together."
-date: 2022-02-27T00:36:14+09:00
+title: "1. Organizational Structure"
+description: "How are people, teams, groups, and departments organized to work together?"
+date: 2023-05-23T00:00:00+05:00
 draft: false
-weight: 6
+weight: 10
 ---
 
-###### Organizationl Structure
+###### Organizational Structure
 
 
 

@@ -6,11 +6,12 @@ draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
   height: 320
-  image: dbicon.png
+  image: gearicon.png
   title:
     - Efficient Software Development
   text:
     - Guidance regarding the practices and processes and philosophies to help your team improve the efficiency at which you develop software.
+    - CHECK BACK ON JULY 1st, 2023 when this site is nearly complete!
   titleColor:
   textColor:
   spaceBetweenTitleText: 5
@@ -21,50 +22,50 @@ sections:
   - bgcolor: teal
     type: card
     cards:
-      - subtitle: Authentication & Authorization
+      - subtitle: The Elements of Software Development
         subtitlePosition: center
         image: images/section/auth.png
         color: white
         button: 
-          name: Authentication & Authorization
-          link: /docs/auth/
+          name: The Elements of Software Development
+          link: /docs/Elements/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Configuration
+      - subtitle: Software Context
         subtitlePosition: center
         image: images/section/configuration.png
         color: white
         button: 
-          name: Configuration
-          link: /docs/configuration/
+          name: Software Context
+          link: /docs/context/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Backups
+      - subtitle: Software Practices
         subtitlePosition: center
         image: images/section/backups.png
         color: white
         button: 
-          name: Backups
-          link: /docs/backups/
+          name: Software Practices
+          link: /docs/Practices/
           size: large
           color: 'white'
           bgcolor: '#283593'
   - bgcolor: teal
     type: card
     cards:
-      - subtitle: SQL Injection
+      - subtitle: Software Processes
         subtitlePosition: center
         image: images/section/sqlinjection.png
         color: white
         button: 
-          name: SQL Injection
+          name: Software Processes
           link: /docs/injection/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Data In Transit
+      - subtitle: Resources
         subtitlePosition: center
         image: images/section/transit.png
         color: white
