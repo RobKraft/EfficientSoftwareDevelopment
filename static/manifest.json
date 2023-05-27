@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "SQL Server Security",
-  "short_name": "SQL Server Security",
+  "name": "Efficient Software Development",
+  "short_name": "Efficient Software Development",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Everything you need to know about securing Microsoft's SQL Server",
-  "start_url": "https://www.sqlserversecurity.com/",
+  "description": "Guidance regarding the practices and processes and philosophies to help your team improve the efficiency at which you develop software.",
+  "start_url": "https://efficientsoftwaredevelopment.com/",
   "icons": [
     {
       "src": "favicon/android-icon-36x36.png",

@@ -22,6 +22,16 @@ sections:
   - bgcolor: teal
     type: card
     cards:
+      - subtitle: Concepts and Overview
+        subtitlePosition: center
+        image: images/section/auth.png
+        color: white
+        button: 
+          name: Concepts and Overview
+          link: /docs/Concepts/
+          size: large
+          color: 'white'
+          bgcolor: '#283593'
       - subtitle: The Elements of Software Development
         subtitlePosition: center
         image: images/section/auth.png
@@ -42,6 +52,9 @@ sections:
           size: large
           color: 'white'
           bgcolor: '#283593'
+  - bgcolor: teal
+    type: card
+    cards:
       - subtitle: Software Practices
         subtitlePosition: center
         image: images/section/backups.png
@@ -52,69 +65,89 @@ sections:
           size: large
           color: 'white'
           bgcolor: '#283593'
-  - bgcolor: teal
-    type: card
-    cards:
       - subtitle: Software Processes
         subtitlePosition: center
         image: images/section/sqlinjection.png
         color: white
         button: 
           name: Software Processes
-          link: /docs/injection/
+          link: /docs/Processes/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Resources
+      - subtitle: Return on Investment (ROI)
         subtitlePosition: center
-        image: images/section/transit.png
+        image: images/section/sensitivedata.png
         color: white
         button: 
-          name: Data In Transit
-          link: /docs/transit/
-          size: large
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Process Management
-        subtitlePosition: center
-        image: images/section/processmgmt.png
-        color: white
-        button: 
-          name: Process Management
-          link: /docs/process/
+          name: Return on Investment (ROI)
+          link: /docs/ROI/
           size: large
           color: 'white'
           bgcolor: '#283593'
   - bgcolor: teal
     type: card
     cards:
-      - subtitle: Sensitive Data
+      - subtitle: It's About Time
         subtitlePosition: center
-        image: images/section/sensitivedata.png
+        image: images/section/transit.png
         color: white
         button: 
-          name: Sensitive Data
-          link: /docs/sensitive/
+          name: It's About Time
+          link: /docs/Time/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Compliance
+      - subtitle: How to Prioritize
         subtitlePosition: center
-        image: images/section/compliance.png
+        image: images/section/processmgmt.png
         color: white
         button: 
-          name: Compliance
-          link: /docs/compliance/
+          name: How to Prioritize
+          link: /docs/Prioritization/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: The Hackers
+      - subtitle: Principles
         subtitlePosition: center
         image: images/section/hackers.png
         color: white
         button: 
-          name: Hackers
-          link: /docs/hackers/
+          name: Principles
+          link: /docs/principles/
+          size: large
+          color: 'white'
+          bgcolor: '#283593'
+  - bgcolor: teal
+    type: card
+    cards:
+      - subtitle: The Mistakes We Make
+        subtitlePosition: center
+        image: images/section/sensitivedata.png
+        color: white
+        button: 
+          name: The Mistakes We Make
+          link: /docs/mistakes/
+          size: large
+          color: 'white'
+          bgcolor: '#283593'
+      - subtitle: Parables
+        subtitlePosition: center
+        image: images/section/compliance.png
+        color: white
+        button: 
+          name: Parables
+          link: /docs/parables/
+          size: large
+          color: 'white'
+          bgcolor: '#283593'
+      - subtitle: Resources
+        subtitlePosition: center
+        image: images/section/compliance.png
+        color: white
+        button: 
+          name: Resources
+          link: /docs/resources/
           size: large
           color: 'white'
           bgcolor: '#283593'

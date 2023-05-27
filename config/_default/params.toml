@@ -3,7 +3,7 @@ logoText = "Home"
 logoType = "short" # long, short
 description = "This site apsires to help you learn all you need to know about SQL Server security topics."
 
-themeOptions = ["light", "dark"]
+themeOptions = ["dark", "light"]
 
 useFaviconGenerator = true # https://www.favicon-generator.org/
 

@@ -1,8 +1,8 @@
 ---
 title: "Resources"
 date: 2022-02-27T10:08:56+09:00
-description: "Tools, training, documentation, and resources for more information."
+description: "External resources recommended for further guidance."
 draft: false
 collapsible: true
-weight: 12
+weight: 120
 ---
