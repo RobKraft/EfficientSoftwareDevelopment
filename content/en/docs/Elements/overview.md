@@ -1,10 +1,12 @@
 ---
-title: "0. The Elements of a Software Development Context"
+title: "0. Overview of The Elements"
 description: "The way people, teams, groups, and departments are organized and work together."
 date: 2023-05-23T00:00:00+05:00
 draft: false
 weight: 1
 ---
+
+### The Elements of a Software Development Context
 
 There is more to software than code.  Software is used to provide a solution to a problem, meet a need, or fulfill a desire.  The goal is to meet that need or solve that problem, not to write code.  Code is just one part of the solution.  Getting the requirements right is another.  Quality assurance processes are important too.  Documentation and support may greatly add to or improve the value of what is delivered.  There are many elements that impact the production of software, and that is what the term elements refers to on this site.  
 
