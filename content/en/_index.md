@@ -28,7 +28,7 @@ sections:
         color: white
         button: 
           name: Concepts and Overview
-          link: /docs/Concepts/
+          link: /docs/concepts/
           size: large
           color: 'white'
           bgcolor: '#283593'
@@ -38,7 +38,7 @@ sections:
         color: white
         button: 
           name: The Elements of Software Development
-          link: /docs/Elements/
+          link: /docs/elements/
           size: large
           color: 'white'
           bgcolor: '#283593'
@@ -61,7 +61,7 @@ sections:
         color: white
         button: 
           name: Software Practices
-          link: /docs/Practices/
+          link: /docs/practices/
           size: large
           color: 'white'
           bgcolor: '#283593'
@@ -71,17 +71,17 @@ sections:
         color: white
         button: 
           name: Software Processes
-          link: /docs/Processes/
+          link: /docs/processes/
           size: large
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Return on Investment (ROI)
+      - subtitle: Task Categories
         subtitlePosition: center
         image: images/section/sensitivedata.png
         color: white
         button: 
-          name: Return on Investment (ROI)
-          link: /docs/ROI/
+          name: Task Categories
+          link: /docs/categories/
           size: large
           color: 'white'
           bgcolor: '#283593'
@@ -94,7 +94,7 @@ sections:
         color: white
         button: 
           name: It's About Time
-          link: /docs/Time/
+          link: /docs/time/
           size: large
           color: 'white'
           bgcolor: '#283593'
@@ -104,7 +104,7 @@ sections:
         color: white
         button: 
           name: How to Prioritize
-          link: /docs/Prioritization/
+          link: /docs/prioritization/
           size: large
           color: 'white'
           bgcolor: '#283593'
