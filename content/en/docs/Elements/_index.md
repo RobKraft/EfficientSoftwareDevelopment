@@ -6,5 +6,3 @@ draft: false
 weight: 20
 collapsible: true
 ---
-
-What are the elements?

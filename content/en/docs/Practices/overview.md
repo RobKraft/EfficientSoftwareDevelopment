@@ -1,5 +1,5 @@
 ---
-title: "0. Overview"
+title: "0. Overview of Software Practices"
 description: "Commonly suggested practices recommended to software development teams and how they are impacted by the Elements of your software development context."
 date: 2023-05-23T00:00:00+05:00
 draft: false
