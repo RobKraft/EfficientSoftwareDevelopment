@@ -7,9 +7,7 @@ weight: 6
 ---
 
 ### What is pair programming?
-Pair programming is the practice of two people, usually two coders, sitting together at a single computer to write code.  [Link to pair programming on wikipedia](https://en.wikipedia.org/wiki/Pair_programming)
-
-If you pair when pairing is not needed - demoralize.  Also one dev scrolls facebook while the other codes.
+Pair programming is the practice of two people, usually two coders, sitting together at a single computer to write code.  [Link to pair programming on wikipedia](https://en.wikipedia.org/wiki/Pair_programming).  Pair programming is usually used to hopefully improve code quality, or to transfer knowledge.  Although the practice often provides benefits, it can also do harm.  When individuals are adamantely opposed to pair programming but are forced to do so it may cause them to quit the company.  Also, when developers are forced to pair program when pair programming is unnecessary it can be demoralizing for developers because most want to be doing something productive.  I've seen several pair programming sessions where one developer spends an hour coding while the other spends the hour gaming or on social media sites.
 
 ### How does your context affect the success will have with pair programming?
 ###### 1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that you will have success with *Pair Programming*?
