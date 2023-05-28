@@ -1,12 +1,10 @@
 ---
 title: "14. Who decides what to do?"
-description: "The way people, teams, groups, and departments are organized and work together."
+description: "Day to day, who decides what tasks teams and team members should take?"
 date: 2023-05-23T00:00:00+05:00
 draft: false
 weight: 140
 ---
 
 ###### Who decides what to do?
-
-
-
+This element may appear to be the same as the Project Selection element and for small teams there may be little difference.  Project Selection is focused on choosing projects with durations measured in months or years, and is driven by people higher up in an organization in large companies, whereas this element focuses on the decisions developers make each day about where to spend their time.  In some large organizations, a project is selected and given to a development team and the company personnel that selected the project are involved very little until they receive notification that the project is complete.  In other organizations, the people that choose the project to work on join the team daily to help decide what tasks each developer works on each day.  Some organizations let their developers decide what to spend their time on each day, even when that may mean the developer chooses to attend training, refactor some architecture, or fix some bugs instead of working on the project to which they are assigned.  Other organizations don’t trust their developers to do what is most valuable and thus provide directives daily to each individual.  This lack of trust is not always merited, but sometimes it is.  A lack of trust in developers is an organizational problem, and a problem in the developer culture.  For most teams, it is best to allow the developers to decide what is most valuable to work on because they understand the software and its needs the best.  However, this is probably not the case for junior developers on the team, or team members new to the company or software solution.  Until developers have time to learn the business domain of the software and how it is delivered, guidance about where they focus their time regularly is probably wise.
