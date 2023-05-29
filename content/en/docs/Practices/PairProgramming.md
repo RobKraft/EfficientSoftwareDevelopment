@@ -3,13 +3,13 @@ title: "Pair Programming"
 description: "Considerations of how your context impacts your ability to gain value from Pair Programming"
 date: 2023-05-23T00:00:00+05:00
 draft: false
-weight: 6
+weight: 10
 ---
 
 ### What is pair programming?
 Pair programming is the practice of two people, usually two coders, sitting together at a single computer to write code.  [Link to pair programming on wikipedia](https://en.wikipedia.org/wiki/Pair_programming).  Pair programming is usually used to hopefully improve code quality, or to transfer knowledge.  Although the practice often provides benefits, it can also do harm.  When individuals are adamantely opposed to pair programming but are forced to do so it may cause them to quit the company.  Also, when developers are forced to pair program when pair programming is unnecessary it can be demoralizing for developers because most want to be doing something productive.  I've seen several pair programming sessions where one developer spends an hour coding while the other spends the hour gaming or on social media sites.
 
-### How does your context affect the success will have with pair programming?
+### How does your context affect the success you will have with pair programming?
 ###### 1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that you will have success with *Pair Programming*?
 
 Organizations that focus more on team output instead of invididual output are naturally more supportive of pair programming.  Conversely, organizations that incent employees at the individual level will have more resistance to pair programming.  Staffing structures that rely on and reward specific areas of expertise may struggle to implement pair programming, as may organizations with matrix structures.  Teams that remain together for a long period will have more success with pair programming, partially because it takes time for each participant in pairs to understand how best to work together with a specific partner.  Both a company and a contractor are less likely to want contractors to pair unless the purpose of the pairing is to transfer skills to an employee.  When staff members are reluctant to share their knowledge because they are concerned they will be less valuable to the company others know what they know, then pair programming may have less success.

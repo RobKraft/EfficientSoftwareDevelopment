@@ -3,7 +3,7 @@ title: "Test-Driven Development (TDD)"
 description: "Considerations of how your context impacts your ability to gain value from test-driven development"
 date: 2023-05-23T00:00:00+05:00
 draft: false
-weight: 6
+weight: 20
 ---
 
 ### What is test driven development (TDD)?
@@ -16,7 +16,7 @@ Finally, there are many situations in which TDD is not very practical, such as o
 
 The considerations below are provided regarding the process of TDD specifically, not the value and merit of the tests themselves.
 
-### How does your context affect the success will have with TDD?
+### How does your context affect the success you will have with TDD?
 ###### 1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that you will have success with *TDD*?
 How your organization is structured probably has no impact on your team's ability to use TDD.
 ###### 2. How does the *[Development Team Culture](/docs/elements/devculture/)* in your context impact the probability that you will have success with *TDD*?

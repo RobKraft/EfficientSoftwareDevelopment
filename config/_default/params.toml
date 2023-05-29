@@ -1,7 +1,7 @@
 logo = true
 logoText = "Home"
 logoType = "short" # long, short
-description = "This site apsires to help you learn all you need to know about SQL Server security topics."
+description = "Guidance regarding the practices and processes and philosophies to help your team improve the efficiency at which you develop software."
 
 themeOptions = ["dark", "light"]
 
