@@ -58,7 +58,7 @@ As with any consideration though, many teams use agile processes yet deliver wor
 The architecture of your solution has little impact on the value Scrum may bring to your team.
 ###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that you will have success with *Scrum*?
 The coding languages and tools in your solution has little impact on the value Scrum may bring to your team.
-###### *21.How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
+###### 21.How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
 The quality of the code in your solution has little impact on the value Scrum may bring to your team.  However, Scrum and many of the agile practices can help your team improve the code quality, especially with more frequent deployments which provides quicker feedback about problems.
 ###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that you will have success with *Scrum*?
 The current quality of your application has little impact on the value Scrum may bring to your team.
