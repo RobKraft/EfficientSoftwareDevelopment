@@ -7,6 +7,8 @@ weight: 30
 ---
 
 ### What is Scrumbut?
+Scrumbut refers to teams that adopt some Scrum principles but are not following all of them.  To Scrum adherents, Scrumbut is a defective form of Scrum (https://www.scrum.org/resources/what-scrumbut).
+
 We are doing Scrum, but...
 
 

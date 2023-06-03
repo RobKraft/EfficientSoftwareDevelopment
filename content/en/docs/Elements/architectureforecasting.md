@@ -20,4 +20,9 @@ Many organizations find this element challenging to adopt and realize when agile
 Although this section is already lengthy, the most valuable aspects of forecasting are probably related to forecasting how your solution will change and the evolution of technologies external to your solution that  may eventually affect your solution.  In order to adopt the new technologies emerging your application probably needs to keep dependencies up to date, but also be designed and architected to be open to implementing new technologies, tools, and frameworks as they emerge.  More importantly, teams that are aware of what is coming in the future can avoid writing code in the present that will be incompatible with those new technologies and feature requirements when it comes time to develop and use them.
 
 
-
+##### How does your development team plan to evolve the architecture of the solution for the future in your context?
+* We don't, we expect our solution to reach its end of life soon.
+* One or more developers on our team pay attention to the changing trends and new technologies and we begin evolving our software to adapt more easily to the changes we plan to adopt.
+* Marketing teams and product owners let us know what new technologies they want to adopt.  Until we get a request from them, we don't think about it.
+* We strive to keep our existing tools, frameworks, SDKs, and dependencies current to take advantage of new functionality and to better transition to future changes.
+* We don't take time, or don't have time, to invest in updating our existing tools and frameworks.  As long as they meet our immediate needs we will use them as is.
