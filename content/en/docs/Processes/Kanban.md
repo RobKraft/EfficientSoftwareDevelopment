@@ -55,7 +55,7 @@ When code quality is good, it is easier to make and deploy small changes that ad
 ???
 ###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that you will have success with *Scrum*?
 ???
-###### *21.How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
+###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
 ???
 ###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that you will have success with *Scrum*?
 ???

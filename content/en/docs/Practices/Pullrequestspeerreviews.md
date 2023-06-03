@@ -43,7 +43,7 @@ The way in which projects are selected probably has no impact on the value peer 
 
 ###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that you will have success with *peer reviews*?
 
-###### *21.How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *peer reviews*?
+###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *peer reviews*?
 
 ###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that you will have success with *peer reviews*?
 
