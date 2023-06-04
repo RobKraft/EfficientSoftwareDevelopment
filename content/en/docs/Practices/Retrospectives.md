@@ -71,3 +71,21 @@ The environment into which your software is deployed probably has no impact on t
 How your team trains people using your solution probably has no impact on the value retrospectives may bring to your team.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *retrospectives* will add value to your process?
 How your team supports people using your solution probably has no impact on on the value retrospectives may bring to your team.
+
+
+#### What does ChatGPT think?
+(May 2023)Hey ChatGPT: When should software developers do retrospectives versus when are retrospectives not very valuable?
+
+Retrospectives are a key aspect of Agile development and are used to evaluate a team's performance and identify areas for improvement. However, there are situations where retrospectives may not be very valuable or may even be counterproductive. Here are some examples:
+
+When retrospectives are valuable:
+1. After completing a sprint or project: Retrospectives are most valuable when they are conducted after completing a sprint or project. This allows the team to review their performance, identify what went well and what didn't, and make improvements for the next sprint or project.
+2. When there is a desire for continuous improvement: Retrospectives are most valuable when the team is committed to continuous improvement. By regularly evaluating their performance, teams can identify areas where they can improve and implement changes to make their process more effective.
+3. When there is open communication and trust among team members: Retrospectives rely on open communication and trust among team members. When team members feel comfortable sharing their thoughts and opinions, retrospectives can be an effective way to identify issues and make improvements.
+
+When retrospectives may not be very valuable:
+1. When there is no desire for change: Retrospectives may not be very valuable if the team is not committed to making changes based on the results of the retrospective. If the team is not interested in improving their process or addressing issues, the retrospective may be seen as a waste of time.
+2. When the team is too large or too small: Retrospectives work best with teams of 3-9 people. If the team is too small, there may not be enough diversity of thought and experience to identify issues. If the team is too large, it may be difficult to have productive discussions and make meaningful changes.
+3. When there is a lack of trust or open communication: Retrospectives rely on trust and open communication among team members. If there is a lack of trust or communication, team members may be hesitant to share their thoughts and opinions, and the retrospective may not be as effective.
+
+Overall, retrospectives can be a valuable tool for software developers when used in the right context. Teams should ensure that they are committed to continuous improvement, that there is open communication and trust among team members, and that the team is the right size to have productive discussions. If these conditions are not met, retrospectives may not be as valuable.

@@ -62,3 +62,22 @@ Little
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
 Some
 
+
+
+
+#### What does ChatGPT think?
+(May 2023)Hey ChatGPT: When should software development teams use CI/CD and when should they not?
+
+CI/CD (Continuous Integration and Continuous Delivery/Deployment) is a software development practice that involves automating the building, testing, and deployment of code changes. It is a popular practice among software development teams, but there are situations where it may not be necessary or feasible. Here are some examples:
+
+When to use CI/CD:
+1. Large development teams: CI/CD can be particularly helpful for large development teams that are working on complex software projects. By automating the testing and deployment process, teams can more efficiently manage code changes and ensure that the code remains stable.
+2. Complex projects: CI/CD can also be helpful for complex projects that involve multiple components or integrations. By automating the testing and deployment process, teams can ensure that all components are properly integrated and working together.
+3. Frequent code changes: CI/CD is particularly effective for projects that require frequent code changes. By automating the testing and deployment process, teams can quickly identify and fix issues, reducing the risk of bugs and errors.
+
+When not to use CI/CD:
+1. Small development teams: For small development teams working on simple projects, CI/CD may not be necessary. The additional overhead of setting up and maintaining a CI/CD pipeline may not be worth the benefits.
+2. Low-risk projects: For low-risk projects where the impact of bugs or errors is minimal, CI/CD may not be necessary. In these cases, manual testing and deployment may be sufficient.
+3. Legacy systems: For legacy systems that are difficult to automate, CI/CD may not be feasible. In these cases, manual testing and deployment may be necessary.
+
+Overall, CI/CD can be a powerful tool for software development teams, particularly for large teams working on complex projects with frequent code changes. However, teams should consider the size and complexity of the project, as well as the level of risk, when deciding whether to use CI/CD or another method of testing and deployment.

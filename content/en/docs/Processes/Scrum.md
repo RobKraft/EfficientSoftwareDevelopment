@@ -70,3 +70,21 @@ The deployment environment of your solution has little impact on the value Scrum
 The product training your organization provides for your product has little impact on the value Scrum may bring to your team.  But if frequent product updates are deployed as part of your Scrum process, you may need to re-evaluate how training is provided as features change more frequently.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *Scrum* will add value to your process?
 The support your organization provides for your product has little impact on the value Scrum may bring to your team.  But if frequent product updates are deployed as part of your Scrum process, you may need to re-evaluate how support is provided as features change more frequently.
+
+
+#### What does ChatGPT think?
+(May 2023)Hey ChatGPT: What are good contexts and bad contexts using SCRUM for software development?
+
+Scrum is a popular Agile framework for software development that emphasizes iterative, incremental delivery of working software. While Scrum can be effective in many contexts, there are certain situations where it may not be the best choice. Here are some examples:
+
+Good contexts for using Scrum:
+1. Complex projects: Scrum can be particularly effective for complex software projects with many moving parts, as it provides a framework for breaking the work into manageable chunks and delivering working software at regular intervals.
+2. Cross-functional teams: Scrum is designed to work well with cross-functional teams, where team members have different areas of expertise. This can help ensure that all aspects of the project are covered and that everyone is working together towards a common goal.
+3. Dynamic environments: Scrum is well-suited to environments where requirements are likely to change frequently or where there is a high degree of uncertainty. Its iterative approach allows teams to adapt to changing circumstances and make course corrections as needed.
+
+Bad contexts for using Scrum:
+1. Small projects: Scrum may not be necessary for very small software projects, where the requirements are clear and straightforward. In these cases, simpler development frameworks may be more appropriate.
+2. Strict, inflexible deadlines: Scrum relies on iterative development and continuous improvement, which may not be feasible in situations where there is a strict, inflexible deadline. In these cases, other project management methodologies may be more appropriate.
+3. Lack of team buy-in: Scrum requires a high degree of collaboration and team buy-in to be effective. If team members are not committed to the process or are resistant to change, it may be difficult to implement Scrum effectively.
+
+Overall, Scrum can be an effective framework for software development in many contexts, but it's important to consider the specific circumstances of each project before deciding to use it. Teams should be willing to embrace the iterative, collaborative approach that Scrum requires in order to get the most out of it.

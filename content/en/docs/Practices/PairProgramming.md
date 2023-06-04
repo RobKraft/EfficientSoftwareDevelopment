@@ -63,3 +63,21 @@ The environment into which your software is deployed probably has no impact on y
 How your team trains people using your solution probably has no impact on your team's ability to use pair programming.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *Pair Programming* will add value to your process?
 How your team supports people using your solution probably has no impact on your team's ability to use pair programming.
+
+
+#### What does ChatGPT think?
+(May 2023)Hey ChatGPT: What are good contexts and bad contexts for pair programming software code changes?
+
+Pair programming is a software development technique in which two programmers work together at one workstation to develop code. There are certain contexts where pair programming can be beneficial, and others where it may not be the best choice. Here are some examples:
+
+Good contexts for pair programming software code changes:
+1. Complex code changes: If the code changes are complex and difficult to understand, pair programming can be beneficial. It allows two programmers to work together to solve problems and can help identify potential issues or areas for improvement.
+2. Learning new skills: If a team member is new to a particular technology or programming language, pair programming can be a great way to learn from a more experienced team member. It allows for knowledge transfer and can help bring new team members up to speed quickly.
+3. Collaboration: If your team values collaboration, pair programming can be a great way to encourage teamwork and knowledge sharing. It allows team members to learn from each other and improve their skills.
+
+Bad contexts for pair programming software code changes:
+1. Tight deadlines: If you're working on a tight deadline, pair programming can slow down the development process. In some cases, it may be necessary to work individually to meet the deadline.
+2. Simple code changes: If the code changes are simple and straightforward, pair programming may not be necessary. It can be a waste of time and resources to have two team members working on small changes.
+3. Introverted personalities: If one or both team members are introverted or prefer to work alone, pair programming may not be the best choice. It's important to consider the personality and work style of each team member before deciding to pair program.
+
+Overall, pair programming can be a valuable technique for software development, but it's important to consider the specific circumstances of each project before deciding to use it.

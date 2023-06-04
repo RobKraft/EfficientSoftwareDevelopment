@@ -14,6 +14,8 @@ Given that tests can be written before or after coding, many point out that TDD 
 There are a few potential drawbacks to using TDD.  It may add little or no value for senior developers that can already visualize the end result that is needed.  It also may take more time as many tests may need to be rewritten when developers identify better abstractions and patterns to use while writing code.
 Finally, there are many situations in which TDD is not very practical, such as on software langauges that lack tooling to support tests.  Also it can be more effort than it is worth to begin writing tests for an existing large code base that currently has none.  Third, many tests may add little value because they are extremely similar to other tests already in the suite or because the code tested is so simplistic that it will never be incorrect; which means developers are wasting time writing tests if there is some other task that could provide more value to the organization.  Finally, some tests that would be most valuable require a lot of data preparation and mocking tools, but these tests, referred to as regression tests or integration tests, are usually not part of the TDD development flow and should not impact your consideration of the value of TDD.
 
+TDD not be very helpful on many maintenance changes, renames in code, and refactoring when you already know what change needs to be made.  It also can be difficult to apply when evolving code to new frameworks and classes, or when making performance improvements or security improvements.  Some features of the code make the TDD approach more work than value obtained from TDD.
+
 The considerations below are provided regarding the process of TDD specifically, not the value and merit of the tests themselves.
 
 ### How does your context affect the success you will have with TDD?
@@ -67,3 +69,20 @@ The environment into which your software is deployed may have some impact on you
 How your team trains people using your solution probably has no impact on your team's ability to use TDD.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *TDD* will add value to your process?
 How your team supports people using your solution probably has no impact on your team's ability to use TDD.
+
+#### What does ChatGPT think?
+(May 2023)Hey ChatGPT: What are good contexts and bad contexts for test driven development?
+
+Test-driven development (TDD) is a software development technique that emphasizes writing automated tests before writing the actual code. While TDD can be a powerful tool for improving software quality and speeding up the development process, there are certain contexts where it may be more or less effective. Here are some examples:
+
+Good contexts for test-driven development:
+1. Large, complex projects: If you're working on a large, complex software project, TDD can be a great way to ensure that each piece of code is tested thoroughly and works as intended. This can help catch bugs early in the development process and reduce the likelihood of major issues down the line.
+2. Collaborative development: If you're working on a project with multiple developers, TDD can help ensure that everyone is on the same page and that changes to the codebase don't break existing functionality. It can also help with knowledge transfer and collaboration.
+3. Critical functionality: If you're working on software that performs a critical function (e.g., financial software), TDD can be a great way to ensure that the software is reliable and performs as expected. This can help prevent costly mistakes and ensure that the software is trustworthy.
+
+Bad contexts for test-driven development:
+1. Simple projects: If you're working on a simple software project, TDD may not be necessary. Writing tests for every piece of code can be time-consuming and may not provide significant benefits.
+2. Tight deadlines: If you're working on a project with a tight deadline, TDD may not be the best choice. While TDD can help catch bugs early in the development process, it can also be time-consuming and may slow down development.
+3. New technology: If you're working with a new technology that you're not familiar with, TDD may not be the best choice. It can be difficult to write tests for code that you don't fully understand, and this can slow down development.
+
+Overall, TDD can be a powerful technique for improving software quality and collaboration, but it's important to consider the specific circumstances of each project before deciding to use it.
