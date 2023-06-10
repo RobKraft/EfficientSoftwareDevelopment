@@ -16,6 +16,12 @@ Although there are minor variations to the meaning of continuous integration, mo
 
 Therefore, many of the elements affecting the automation of devops affects the implementation of continuous integration in the same way.
 
+### Why implement continuous integration?
+Continuous integration alerts developers more quickly to problems building the combined codebase of all the developers.  We all know that the longer developers wait to merge their code together the more difficult it can become to resolve merge conflicts.  Another benefit is that CI often includes running unit tests and integration/regression tests that can reveal bugs introduced by the changes.
+
+### Why not implement continuous integration?
+In some cases, CI is not an option due to the coding language and tools.  When a developer is working solo on a project, they gain little value from an automated build running after they commit their changes to a shared repository because it will get the same result it does on their local computer (though sometimes developers forget to upload some new code to the shared environment, so automated builds help reveal that).  Finally, if integrating with other developers is rarely a problem and the team does not have a good place (server) for running the CI steps, the value gained by creating it may be small.
+
 ### How does your context affect the success you will have implementing continuous integration?
 ###### 1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that *implementing continuous integration* will add value to your process?
 How your organization is structured has no impact on your team's ability to implement continuous integration.

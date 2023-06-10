@@ -13,6 +13,12 @@ Many people consider Scrum and Agile to be almost the same thing.  When a compan
 
 Like the concept of Agile in general, Scrum advocates delivering software in small increments, measuring what works, adjusting your process based on what you have learned, and continually trying to improve your process of delivery.
 
+### Why adopt Scrum?
+Teams usually adopt Scrum from a desire to methodically improve their development process.  One goal is often a more predictable and reliable cadence of software delivery.  
+
+### Why not adopt Scrum?
+When development processes are flowing smoothly and the team prefers the process already in place.
+
 As you read through the considerations below, keep in mind that your aspects of your context that although some elements in your context may make the adoption of Scrum more difficult, this does not mean you shouldn't adopt Scrum.  It may mean that you just need to change your context to help make the Scrum adoption more successful.
 
 ### How does your context affect the probability that Scrum will add value to your process?

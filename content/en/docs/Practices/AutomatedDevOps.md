@@ -9,6 +9,7 @@ weight: 40
 ### What is DevOps Automation?
 With the exception of software that is coded and developed directly where it is deployed and used (such as in many low-code environments), action is required to take the "completed" code and deploy it to a location where it executes and is used by clients, customers, staff, employees, the public, and others.  The process of deploying the software can loosely be referred to as your "developer operations", aka "DevOps".  Frequently when we use the word DevOps we are referring to tools that automatically handle some or all of the deployment steps for us, but it is important to realize that in most contexts, every step is not 100% automated.  A few steps may remain manual.  But there has certainly been a strong and popular trend in the majority of development shops this century to automate deployment.
 
+### Why implement automated DevOps?
 Automated deployments usually provide a number of benefits:
 * Deployment because less tedious for those involved
 * It becomes quicker to deploy
@@ -22,6 +23,7 @@ Automated deployments usually provide a number of benefits:
 * Deployments to test and QA environments can occur more quickly leading to faster feedback on testing results
 * Tests can run against code as soon as code is committed to check for errors, to make sure it passes all written tests, for security vulnerabilities, and for many other reasons.
 
+### Why not implement automated DevOps?
 It is difficult to find reasons against making some deployment operations automated.  There are many reasons why you might not want to automate one hundred percent, meaning that every code commit automatically gets pushed to production if it passes all tests.  But automated builds and automating the running of unit tests are easy and extremely valuable in almost every context where they are possible.
 
 * Because there are separate sections for CI, CD, and CI/CD to Prod, this section will focus on the value of automating builds and the running of tests.

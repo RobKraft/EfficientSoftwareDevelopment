@@ -13,6 +13,13 @@ The selection of the word 'Agile' reflects the philosophy of the principles that
 
 Agile advocates delivering software in small increments, measuring what works, adjusting your process based on what you have learned, and continually trying to improve your process of delivery.
 
+### Why adopt Agile?
+Teams usually adopt Agile to replace their current waterfall development practices.  They seek to release software more quickly and do a better job and delivery what the product owner wants.  They want to avoid wasting a lot of time developing software that they end up discarding.
+
+### Why not adopt Agile?
+This writer is aware of no reason to choose waterfall over Agile.  A team may continue to deliver software once a year, yet still develop it using Agile techniques such as getting product owner feedback all along the way, and accepting new requirements throughout the year.  Even when a team spends months creating a very precise estimate for a client, and then the team goes away for months to build it, the team can be agile during their construction by focusing on finishing what they start instead of starting many of the software features at the same time.
+
+
 As you read through the considerations below, keep in mind that your aspects of your context that although some elements in your context may make the adoption of Agile more difficult, this does not mean you shouldn't adopt Agile.  It may mean that you just need to change your context to help make the Agile adoption more successful.
 
 ### How does your context affect the probability that adopting the agile philosophies will add value to your process?

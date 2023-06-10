@@ -7,8 +7,13 @@ weight: 70
 ---
 
 ### What is CI/CD to Production?
-A
+CI/CD to Prod is just crazy, that's what it is!  Just kidding.  CI/CD to Production means automating your deployment pipeline so that after a code change is committed to a shared repo it can be compiled, tested, and deployed into production automatically without any human intervention.  In some environments, human gatekeepers might still push the last button to make the deployment, but in many they do not.
 
+### Why implement CI/CD to Production?
+If you want to know if your software is right, the best way to get quick feedback may be to deploy it and get feedback from the people actually using it.  Your team can save time and resources by eliminating the non-production quality assurance environments and can get changes and fixes deployed more quickly.
+
+### Why not implement CI/CD to Production?
+When it is very important that your software is as good as it can possibly be before it is deployed, then you probably don't want to use CI/CD to production.  When your software is responsible for keeping people alive, or even when you want to make sure it doesn't incorrectly cost someone money in a financial transaction, you may want human review before the changes are deployed.  Also, if your software is a component in a larger system or one of many microservices in a critical application, you may not want to use CI/CD all the way to production. If you don't have a good mechanism to roll back a bad deployment, or quickly fix a problematic deployment, you probably don't want to deploy directly to production.  Some software, such as embedded controllers, don't support CI/CD to production, because they are effectively write once deployments.  And obviously if you develop software that is deployed by other people on their own schedules, you can't deploy that to production automatically.  
 
 ### How does your context affect the success you will have with CI/CD to production?
 ###### *1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
