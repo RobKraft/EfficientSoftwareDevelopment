@@ -38,18 +38,14 @@ The way in which projects are selected has no impact on your team's ability to i
 ###### *9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
 One of the few factors that affects the ability to implement continuous deployment is the purpose of the solution.  If you are building a temporary solution, something that will be used once and will be completed soon, then CI/CD may not be worth the time.  Prototypes, demo applications, technical proofs of concept, and solutions that produce a single report or output and are then discarded may not benefit from CD.
 ###### 10. How do the *[Application Architecture Priorities](/docs/elements/apparchpriorities/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
-Your application's architecture priorities has no impact on your team's ability to implement continuous deployment
+Your application's architecture priorities has no impact on your team's ability to implement continuous deployment.
 ###### *11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
-
-
-Security demands of your solution have no impact on your team's ability to implement continuous deployment.
-
-
+Security demands will probably have a significant impact on your continuous deployment pipeline.  If security is not important, then setup could be fairly simple.  But when security is important, you need to implement secure processes for providing sensitive credentials used by each non-production, and production, environment.  The storage of those credentials needs to be secured, and the secure stored credentials need to be retrieved only by secure accounts.  The complexity of thorough security may make it easier to manually perform some deployment steps, even though it takes much longer.  The term SecDevOps arose referring to this process because it is challenging in many contexts.
+Unrelated to the credentials used during deployment, security of the deployed application itself may be a concern.  Some contexts require rigorous pen-testing or tests that are difficult to automate to look for vulnerabilities in the software before it goes to production.
+Sensitive data represents another security concern.  Non-production environments are always tempted to import data from production to simulate production environments as well as possible, but if there are sensitive data in production, that data often needs to be obfuscated or removed.  This can be time-consuming, difficult, and could also result in data that doesn't reflect production closely enough to be useful for good testing.
+Automation to address the three security challenges above may be difficult.
 ###### 12. How do the *[Requirements, Features, and Priorities](/docs/elements/rqmtsandfeatures/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
-Can we overwrite test?
-The way your team manages requirements, features, and priorities has no impact on your team's ability to implement continuous deployment
-
-
+Automating deployment might sound great to the development team, but the quality assurance team and product owners doing testing need to be involved in the plans so that non-production environments remain stable when QA needs many days or weeks with the same data and code base to perform their tests.  Your team may need to support additional non-production environments when moving to automated deployments.
 ###### 13. How do the *[Regulations](/docs/elements/regulations/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
 The regulations your organization must comply with has no impact on your team's ability to implement continuous deployment.
 ###### 14. How does *[Who Decides What To Do](/docs/elements/whodecides/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
@@ -62,16 +58,12 @@ The processes you use to insure quality in your application have no impact on yo
 The plans you have for evolving the architecture of your application have no impact on your team's ability to implement continuous deployment.
 ###### *18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
 The automation of builds can be performed on the same computers developers use to code and debug.  But to implement a CI/CD process with frequent builds and test runs usually requires a separate server to handle the workload so that developers computers aren't slowed down when the processes run, and so that they can build using the code everyone in team has committed, not just the code from one developers computer.  Today, a lot of teams spin up build servers in the cloud to do this.  It can also be done with a traditional server on-premise or in the cloud.  Either way, teams need to be skilled enough to set up and configure the build servers and maintain the build environment, which often also means creating test databases for automated testing processes.  Teams with development based in the cloud generally have an advantage over teams doing all their builds and processes on computers on premise.
-###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
-
-Seperate teams and microservices, integrations, etc.
-The architecture of your application has no impact on your team's ability to implement continuous deployment
-
-
+###### *19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
+There are so many possible software architectures, especially when you considering solutions combining many architectures, that it may not be possible to determine which architectures facilitate or hinder continuous deployment.  But we can be reasonably sure that your architectures can significantly impact the feasibility of continuous deployment.  Web architectures are probably easier than desktop architectures for implementing CD, but distributed architectures and microservice architectures may, or may not, be more challenging.  When all developers are on one small team it will probably be easier, but for solutions comprised of deployments by several, or dozens of teams of developers, continuous deployment strategies can become more complicated.  You may not be able to automate deployment to one of your test servers if that impacts the software of another team that integrates with your teams software.
 ###### *20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
 Some types of coding don't have build processes, such as low-code environments or Visual Basic macro script inside of Microsoft Excel.  And some other languages, particularly scripting languages, don't need to be built, but some developers do execute them in test environments against a set of tests after the code is committed to a repo.
 ###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
-The quality of code in your application has no impact on your team's ability to implement continuous deployment
+The quality of code in your application has no impact on your team's ability to implement continuous deployment.
 ###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?
 The current quality of your application has no impact on your team's ability to implement continuous deployment.
 ###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that *implementing continuous deployment* will add value to your process?

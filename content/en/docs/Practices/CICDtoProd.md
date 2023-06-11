@@ -7,7 +7,7 @@ weight: 70
 ---
 
 ### What is CI/CD to Production?
-CI/CD to Prod is just crazy, that's what it is!  Just kidding.  CI/CD to Production means automating your deployment pipeline so that after a code change is committed to a shared repo it can be compiled, tested, and deployed into production automatically without any human intervention.  In some environments, human gatekeepers might still push the last button to make the deployment, but in many they do not.
+CI/CD to Prod is just crazy, that's what it is!  Just kidding.  CI/CD to Production means automating your deployment pipeline so that after a code change is committed to a shared repo it can be compiled, tested, and deployed into production automatically without any human intervention.  In some environments, human gatekeepers might still push the last button to make the deployment, but in many they do not.  Many companies that use CI/CD to production don't do so for every change to the code.  They may do so for the majority of changes which tend to be small, but will still do a manual deploy when making significant changes to their software solution.
 
 ### Why implement CI/CD to Production?
 If you want to know if your software is right, the best way to get quick feedback may be to deploy it and get feedback from the people actually using it.  Your team can save time and resources by eliminating the non-production quality assurance environments and can get changes and fixes deployed more quickly.
@@ -17,55 +17,60 @@ When it is very important that your software is as good as it can possibly be be
 
 ### How does your context affect the success you will have with CI/CD to production?
 ###### *1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Probably very important
+How your organization is structured may have some impact on your team's ability to implement CI/CD to Production.  Someone must decide that such deployments are safe, preferred, and reasonable, and the decision can be complicated by your organizational structure.  Another challenge could happen if the developer coders are on a different team from the devops implementers and neither team knows a lot about how the other team works.  Getting a good CI/CD pipeline functional requires both developers and people in devops roles working together to make changes to code, configuration, architecture, and processes to get CI/CD working well.  
 ###### *2. How does the *[Development Team Culture](/docs/elements/devculture/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Important
+Like most things that involve change, you need team members to be supportive of the change to increase the odds for success.  If CI/CD directly to production isn't currently in use, it may take overcoming a lot of resistance unless it is the affected team members pushing for the change.
 ###### 3. How does the *[Hiring Process](/docs/elements/hiringprocess/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+Your organization's hiring process has no impact on your team's ability to implement CI/CD to Production.
 ###### *4. How does the *[Team Composition](/docs/elements/teamcomposition/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+Your team's composition has no impact on your team's ability to implement CI/CD to Production, other than the potential lack of knowledge about how to get started and make it happen that more experienced developers can provide.
 ###### 5. How does the *[Training Provided on Code](/docs/elements/trainingoncoding/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+The training your organization provides on code languages and tools has a small impact on your team's ability to implement CI/CD to Production.  If your company wants this automation, the company will hopefully allow the developers to be trained to do it with their tools.  
 ###### 6. How does the *[Training Provided on 'Our Ways of Doing Things'](/docs/elements/trainingonourways/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Somewhat important
+The training your team provides on your way of doing things has some impact on your team's ability to implement CI/CD to Production.  New team members need to learn early that their code commits can be deployed immediately if they are coming from an environment where that is not common.  They need to understand the ramifications and how to resolve bugs deployed to production.
 ###### 7. How does the *[Environment](/docs/elements/environment/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Very important
+CI/CD to Production deployment usually requires an environment that can support builds on external servers with deployments automated from there.  Fortunately that is available in most contexts.
 ###### 8. How does the *[Project Selection](/docs/elements/projectselection/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
-###### 9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Very Important
+The way in which projects are selected has no impact on your team's ability to implement CI/CD to Production2.
+###### *9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
+One of the few factors that affects the ability to implement CI/CD to Production is the purpose of the solution.  If you are building a temporary solution, something that will be used once and will be completed soon, then CI/CD may not be worth the time.  Prototypes, demo applications, technical proofs of concept, and solutions that produce a single report or output and are then discarded may not benefit from CI/CD.  If you sell software for others to install, then CI/CD to their production system is rarely an option (unless you are in a SAAS environment).  Also, software installed once, such as onto the chips embedded in hardware devices, can't make use of CI/CD to production.
+Software deployed using CI/CD to production usually, maybe always, occurs in environments where there is a single deployment and production "site", such as a public website like Amazon.com or Facebook.com or Gmail.com, or even for many SAAS providers.  It is less likely to be used when clients run on different versions of software and the clients desire to be in control of when new features are deployed.
 ###### *10. How do the *[Application Architecture Priorities](/docs/elements/apparchpriorities/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Very Important
-###### 11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Somewhat important ifreviews needed
+Your application's architecture priorities have a significant impact on your team's ability to implement CI/CD to production.  If the most important priority is to get something delivered quickly, then CI/CD to production merits much consideration.  However, if 100% uptime reliability or security or intolerance for bugs and mistakes is extremely important, then your team will probably avoid CI/CD to production.
+###### *11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
+As mentioned above, organizations concerned about security may be reluctant to deploy changes to production without manual tests or human review of automated test results.
+When security is important, you need to implement secure processes for providing sensitive credentials and certificates used in the production, environment.  The storage of those credentials needs to be secured, and the secure stored credentials need to be retrieved only by secure accounts.  The complexity of thorough security may make it easier to manually perform some deployment steps, even though it takes much longer.  The term SecDevOps arose referring to this process because it is challenging in many contexts.
+Unrelated to the credentials used during deployment, security of the deployed application itself may be a concern.  Some contexts require rigorous pen-testing or tests that are difficult to automate to look for vulnerabilities in the software before it goes to production.
 ###### *12. How do the *[Requirements, Features, and Priorities](/docs/elements/rqmtsandfeatures/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Important to get it right - maybe.
+Most teams can identify a person or group of people that are considered the owner of the software.  This person or group is someone that is not a developer themselves, but is responsible for insuring the software delivered meets the desired goals and purposes of the software.  This person or group may be reluctant to have changes automatically deployed to production without their chance to review it first.  However, there are several techniques that can eliminate this concern.  One technique, feature flags, allows the software changes to be deployed "darkly" to production; which means they are not visible until that feature is "turned on".  And the feature is often "turned on" for a limited set of people until it is tested in production, then deployed to everyone.  A similar approach to feature flags is the use of blue green deployments, where a feature is enabled for a small subset of users and more are gradually switched to the new feature if no problems are discovered.
+Another factor to consider is the impact on how your team and product tracks features delivered.  This may be important for accounting reasons, but also to let end users know and so product documentation and support and training can update their processes to support a continuous flow of features.
 ###### 13. How do the *[Regulations](/docs/elements/regulations/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Can
+I am not aware of any major industry standards that would prohibit CI/CD to production, but some software providers may have agreements with clients that would prohibit such deployments because the client desires to do their own QA prior to production deployment.
 ###### 14. How does *[Who Decides What To Do](/docs/elements/whodecides/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+Who decides what to do next on your teams has no impact on your team's ability to implement CI/CD to Production.
 ###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Tracking matters
+How your team manages projects and tasks may have some impact on your team's ability to implement CI/CD to production, but it is most likely that your implementation of CI/CD to production will alter your project management practices a little bit.  Most specifically it may impact how you track the status of items on your tracking boards and how end users, support personnel, and training teams are notified of features released (see item #12 above).
 ###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Very important if app is.
+If all of your quality assurance is automated, CI/CD to production becomes much easier, but as mentioned above, when testing by humans is strongly desired, CI/CD to production is unlikely.  When the software provides life support, or can't afford a single security flaw, or can't support a single mistake, teams are unlikely to rely solely on the automated tests before releasing to production.
 ###### 17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+The plans you have for evolving the architecture of your application have little impact on your team's ability to implement CI/CD to production.
 ###### 18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-BIG
+Implementing CI/CD to production usually requires a separate build and deploy server to handle the workload.  Today, a lot of teams spin up build servers in the cloud to do this.  It can also be done with a traditional server on-premise or in the cloud.  Either way, teams need to be skilled enough to set up and configure the build servers and maintain the build environment, which often also means creating test databases for automated testing processes.  Teams with development based in the cloud generally have an advantage over teams doing all their builds and processes on computers on premise.
+
 ###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Big
+There are so many possible software architectures, especially when you considering solutions combining many architectures, that it may not be possible to determine which architectures facilitate or hinder continuous deployment.  But we can be reasonably sure that your architectures can significantly impact the feasibility of continuous deployment.  Web architectures are probably easier than desktop architectures for implementing CD, but distributed architectures and microservice architectures may, or may not, be more challenging.  When all developers are on one small team it will probably be easier, but for solutions comprised of deployments by several, or dozens of teams of developers, continuous deployment strategies can become more complicated.  You may not be able to automate deployment if that impacts the software of another team that integrates with your teams software.  Instead, you discover that your software needs some architectural changes in order to become more decoupled from other solutions that are deployed separately.
 ###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Some impact due to tooling
+Some types of coding don't have build processes, such as low-code environments or Visual Basic macro script inside of Microsoft Excel.  And some other languages, particularly scripting languages, don't need to be compiled.  This means that there is nothing to automatically deploy to production.
 ###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
-###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+The quality of code in your application has no impact on your team's ability to implement CI/CD to production.
+###### *22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
+The current quality of your application may have some impact on your team's ability to implement continuous deployment.  Hopefully the quality is already high, and the application is fairly stable before you consider using CI/CD to production.  When an application has low quality, meaning that it has a lot of bugs, then faster automated deployments are probably just going to introduce more bugs into production faster.
 ###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-BIG
-###### 24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Little
+The environment into which your software is deployed impacts your ability to implement CI/CD, primarily because the environments don't support builds.  Some examples include scripting languages, low-code environment, and Excel macros.  Other examples are software written that talks directly to physical devices such as phones, GPS devices, and Arduino controllers.  These are generally, "deploy once" environments, so CI/CD to production doesn't make much sense.
+###### *24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
+How your team trains people using your solution has no impact on your team's ability to implement CI/CD to production, but the reverse is not true.  Implementing CI/CD to production could significantly disrupt how employees or end users are trained.  Because changes can be deployed daily, or more frequently, teams will want software that is intuitive and easy to use, or even have the explanations for how to use it deployed with each deployment.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *CI/CD to Production* will add value to your process?
-Some
+As with training, how your team supports your software probably doesn't prevent you from using CI/CD to production, but using CI/CD to production can impact how your team supports the software.  Support team personnel need to be able to deal with a more frequent stream of deployments.  The software probably relies less, or not at all, on determining a version of the software in use by the end user.
 
 
 
