@@ -7,67 +7,72 @@ weight: 40
 ---
 
 ### What is Kanban?
-A
+Kanban is an agile methodology for delivering software that emphasizes a continuous flow of development and deployment, as opposed to frameworks such as Scrum that usually operate with short cycles that end and start anew at regular intervals.  Kanban focuses on eliminating waste and limiting work in progress (WIP) to improve delivery frequency and predictability.  Here is a link to [Wikipedia's definition](https://en.wikipedia.org/wiki/Kanban_(development).
 
-Code Quality:
+### Why adopt Kanban?
+Kanban embrace agile software development concepts.  In contrast to Scrum, it does not begin and end cycles every week or two weeks.  Many teams find the time-boxed sprints of Scrum awkward because they always have work left to do at the end of their sprints and always carry work over to the next sprint.  Kanban eliminates that confusion by eliminating the concept of sprints.  Kanban often spends less time on estimates as well, instead relying on statistics from the kanban board to predict cycle and delivery times, and freeing development team members from the time spent estimating.   
+
+### Why not adopt Kanban?
+When development processes are flowing smoothly and the team prefers the process already in place.
+
+As you read through the considerations below, keep in mind that your aspects of your context that although some elements in your context may make the adoption of Kanban more difficult, this does not mean you shouldn't adopt Kanban.  It may mean that you just need to change your context to help make the Kanban adoption more successful.
+
+### How does your context affect the probability that Kanban will add value to your process?
+###### *1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that *Kanban* will add value to your process?
+Many teams struggle to adopt Kanban because it impacts the way the organization used to work in a waterfall development environment.  In waterfall, developers often gathered a lot of requirements from product owners at the start of the project, provided an estimate of the cost to deliver, and then were not heard from by the product owners for many months.  Agile and Kanban processes require more frequent input from product owners.  A solid cost estimate is rarely provided up front, and the gathering of requirements is done all during the course of development.  Product owners therefore need to be a lot more involved making daily decisions about how the software will work, along with prioritizing what they feel is most important.  In short, the development team can't adopt Kanban very well if the product owners don't also adjust their way of working.
+
+For teams currently using Scrum, moving to Kanban may look like a natural evolution that eliminates some awkward processes they encounter with Scrum.  Most developers are likely to prefer the change to Kanban from Scrum, but organizations attempting to aggregate metrics across all teams are likely to resist.  This is unfortunate because much research shows that aggregating Scrum metrics across teams is misleading and hinders process improvement.  Some project managers and Scrum masters also resist kanban because they feel their role will be less defined and are uncertain how they can add value to the process.
+###### *2. How does the *[Development Team Culture](/docs/elements/devculture/)* in your context impact the probability that *Kanban* will add value to your process?
+Again, going from waterfall to Kanban is a significant change, especially for development teams.  If team members are "set in their ways", you can expect that resistance to change to make Kanban adoption very difficult.  If the team feels they are tasked with similar process changes every few years which always fail, then you can also expect resistance.  If it is the team members advocating for Kanban, then you can certainly expect a greater chance of success, providing the impact on the rest of the organization can be handled.  Like many changes you might try to introduce, a poor team culture and disgruntled team members will make the change more difficult and you should probably consider how to improve team morale first.  Teams already using Scrum are likely willing to try kanban.
+###### 3. How does the *[Hiring Process](/docs/elements/hiringprocess/)* in your context impact the probability that *Kanban* will add value to your process?
+The hiring process of your organization may have some impact on the value Kanban may bring to your team.  Kanban is more team-focused development than waterfall and demands more interactions between individuals, therefore you want to hire individuals that can interact with others well; and it is probably beneficial to have the potential team members interview the person that is to become part of their team.
+###### *4. How does the *[Team Composition](/docs/elements/teamcomposition/)* in your context impact the probability that *Kanban* will add value to your process?
+Because kanban comes with little ceremony, it can feel easy to start with for most developers.  Understanding the value of limiting work in progress may take time, but the practice can be followed even when the value of it is not appreciated.  Therefore both junior and senior developers often take quickly to kanban.
+Kanban impacts more people than just coders, so project managers, quality assurance, and product owners may all have their processes impacted as part of a transition to kanban.
+###### 5. How does the *[Training Provided on Code](/docs/elements/trainingoncoding/)* in your context impact the probability that *Kanban* will add value to your process?
+The training your company provides on code has no impact on the value Kanban may bring to your team.
+###### 6. How does the *[Training Provided on 'Our Ways of Doing Things'](/docs/elements/trainingonourways/)* in your context impact the probability that *Kanban* will add value to your process?
+The training your company provides on your way of doing things has little impact on the value kanban may bring to your team.  Mostly you probably want to provide some training of your kanban process to new team members as they join.
+###### 7. How does the *[Environment](/docs/elements/environment/)* in your context impact the probability that *Kanban* will add value to your process?
+Your environment may have some impact on the value kanban may bring to your team.  Teams need to meet to communicate, so rooms without distractions, or technologies such as Zoom that everyone can use well are important.  Visible kanban boards to see the status of items, the backlogs, and understand what everyone is working on are very beneficial.
+###### 8. How does the *[Project Selection](/docs/elements/projectselection/)* in your context impact the probability that *Kanban* will add value to your process?
+How projects are selected probably has little impact on the value kanban may bring to your team, provided that the product owners are equally committed to utilizing the kanban process for delivery of the software.  When transitioning from waterfall to kanban, teams should prioritize projects with willing product owners.  Perhaps also look for projects that can deployed incrementally to provide value to end users.
+###### *9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that *Kanban* will add value to your process?
+The solution purpose should significantly impact the utilization of kanban for your team.  This is not to imply that kanban is good for some solution purposes such as "core ERP Business solutions" and bad for others such as "an internal web site for our pickleball league".  Rather it is to say that the kanban processes can, and probably should, be different for these different types of solutions.  They can have different columns on the kanban board and different WIP limits, different backlog and project management tools, deployment frequency, and more.  Teams should regularly review how they organize boards to find ways to improve communication and increase flow.  Therefore we should expect kanban to look different at one organization from another, as well as from one team to another within an organization.
+###### *10. How do the *[Application Architecture Priorities](/docs/elements/apparchpriorities/)* in your context impact the probability that *Kanban* will add value to your process?
+When the quick deliver of new features and solutions is your top priority, kanban is probably your best bet.  This is especially true for teams constantly improving features and adding new features to an existing product.  Kanban is designed to deliver each small change, whether new feature or bug fix, to production as soon as it is ready, instead of waiting for the end of an iteration or time-boxed deadline.  Kanban is an approach equal to Scrum or Waterfall if your applications priorities are security, performance, reliability, quality, or other.
+###### 11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that *Kanban* will add value to your process?
+The security demands of your solution have little impact on the value Kanban may bring to your team.
+###### *12. How do the *[Requirements, Features, and Priorities](/docs/elements/rqmtsandfeatures/)* in your context impact the probability that *Kanban* will add value to your process?
+As mentioned previously, Kanban and most agile processes expect a lot of product owner collaboration to work well.  That collaboration is used to gather requirements as needed, and set priorities based on the ROI they can provide.  Perhaps it can be done well without the product owner by someone else that has a good idea of what the product owner wants, but lack of such input will likely cause a return toward waterfall methods.
+###### 13. How do the *[Regulations](/docs/elements/regulations/)* in your context impact the probability that *Kanban* will add value to your process?
+Your regulations and auditing requirements probably have no impact on the value Kanban may bring to your team.  However, as your team adopts Kanban you may need to work with some auditors to develop new auditing policies for your Kanban development processes.
+###### *14. How does *[Who Decides What To Do](/docs/elements/whodecides/)* in your context impact the probability that *Kanban* will add value to your process?
+The people that make the daily decisions about what a team and team members should do is greatly affected by Kanban, or any agile process, when compared to waterfall.  Decisions need to be made more frequently and by those that know the work best to avoid time being wasted.  Producing a software feature, at the same time as developing a software product, at the same time as making improvements to development processes, at the same time as trying to improve DevOps, requires the ability to consider dozens of factors about the most valuable use of time of team members.  That decision should not fall to a product owner, or a project manager, or a Scrum master, or individual developer.  Ideally stakeholders can work together to guide decisions, otherwise a team can become unbalanced.  For example, they may focus on just delivering features as fast as they can, when they could eventually deliver them faster if they took time for automating builds, taking a few days for training, or fixing some bugs that consistently consume time.  Conversely, a development team may seek to build the optimal framework and devops automation prior to delivering many features and may waste a lot of valuable time building robustness that is vastly under-utilized.
+###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that *Kanban* will add value to your process?
+Project management tools and processes can make a significant impact on your success with Kanban.  Good backlog management tools and task boards easily accessible by all stakeholders greatly facilitate communication in timely manner so that good decisions can be made quickly when needed.
+###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that *Kanban* will add value to your process?
+The quality processes you have in place may be impacted by the adoption of Kanban or any agile process if you currently follow a waterfall process.  Most waterfall processes include little quality assurance other than reviews, but use extensive testing after the majority of the code is written.  Agile approaches like Kanban expect testing to occur right away as code becomes testable early in the project.  Many agile practices support quality processes such as writing tests and testable requirements before writing code, or having quality assurance team members sit with developers as they code.  Of course unit tests, integration tests, static code analysis, and automated deploys to quality assurance environments are often employed.  In short, adopting agile processes facilitates the adoption of many new quality processes.
+###### *17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that *Kanban* will add value to your process?
+The way a team plans and implements architectural changes, such as rewriting a web application to use REST on the backend, probably changes significantly with a transition from waterfall to Kanban or any agile process.  In waterfall, an architecture team may mandate the architecture to be used on a project, or may create a project the singular goal of changing the architecture.  Agile teams usually gradually migrate from one architecture to another across the deployment of many features and projects.  So the impact of this element goes both ways.  How your organization currently evolves the architecture is probably going to impact your ability to use Kanban or agile, but also the implementation of Kanban or agile is going to affect how your teams evolve architectures.
+###### *18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that *Kanban* will add value to your process?
+Like architectural forecasting, your current DevOps processes are likely to impact or hinder your ability to do Kanban, and your implementation of Kanban is likely to cause significant changes to your DevOps processes if it is to be successful.  Delivering working software frequently is a key part of the definition of Agile.  Software doesn't necessarily need to be delivered to production for a team to be agile.  The software could be delivered to a test environment where product owners can do enough evaluation to make a really good assessment about it meeting their production needs.  If changes can't be delivered until they have gone through months of testing environments and integrations, the value gained from an agile process is greatly curtailed, especially in the initial transition to Kanban.  Therefore, the adoption of Kanban will most likely include the demand to improve DevOps so that deployments can be made swiftly and often.  
+As with any consideration though, many teams use agile processes yet deliver working solutions to customers only once or twice per year.  They can do this by delivering more frequently to an internal quality assurance team or product owner liaison who can evaluate and approve the changes more frequently.  All those changes over the months usually accumulate, having passed all testing, and are bundled together in a product released annually.
+###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that *Kanban* will add value to your process?
+The architecture of your solution has little impact on the value Kanban may bring to your team.
+###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that *Kanban* will add value to your process?
+The coding languages and tools in your solution has little impact on the value Kanban may bring to your team.
+###### 21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that *Kanban* will add value to your process?
+The quality of the code in your solution has little impact on the value Kanban may bring to your team.  However, Kanban and many of the agile practices can help your team improve the code quality, especially with more frequent deployments which provides quicker feedback about problems.
 When code quality is good, it is easier to make and deploy small changes that add product value independently, and Kanban supports deploying small changes very well.
-
-
-
-### How does your context affect the success you will have with Scrum?
-###### *1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *2. How does the *[Development Team Culture](/docs/elements/devculture/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 3. How does the *[Hiring Process](/docs/elements/hiringprocess/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *4. How does the *[Team Composition](/docs/elements/teamcomposition/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 5. How does the *[Training Provided on Code](/docs/elements/trainingoncoding/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 6. How does the *[Training Provided on 'Our Ways of Doing Things'](/docs/elements/trainingonourways/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 7. How does the *[Environment](/docs/elements/environment/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 8. How does the *[Project Selection](/docs/elements/projectselection/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *10. How do the *[Application Architecture Priorities](/docs/elements/apparchpriorities/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *12. How do the *[Requirements, Features, and Priorities](/docs/elements/rqmtsandfeatures/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 13. How do the *[Regulations](/docs/elements/regulations/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 14. How does *[Who Decides What To Do](/docs/elements/whodecides/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that you will have success with *Scrum*?
-???
-
-
-
+###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that *Kanban* will add value to your process?
+The current quality of your application has little impact on the value Kanban may bring to your team.
+###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that *Kanban* will add value to your process?
+The deployment environment of your solution has little impact on the value Kanban may bring to your team.  It may impact how frequently you can deploy to "production", but most Kanban and Agile teams will have a test environment they can deploy to more frequently for testing before delivering the accumulated changes in a single package to production.  It is generally easier to deploy frequently to production when production is a web site.  Deployments to phone App Stores can be a little more difficult, as can deployments of desktop applications.  Deployments to some environments, such as code embedded into hardware happens once.  Some software is purchased and downloaded by customers so deployments, aka, new versions of the software, are only made available periodically.
+###### 24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that *Kanban* will add value to your process?
+The product training your organization provides for your product has little impact on the value Kanban may bring to your team.  But if frequent product updates are deployed as part of your Kanban process, you may need to re-evaluate how training is provided as features change more frequently.
+###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *Kanban* will add value to your process?
+The support your organization provides for your product has little impact on the value Kanban may bring to your team.  But if frequent product updates are deployed as part of your Kanban process, you may need to re-evaluate how support is provided as features change more frequently.
 
 
 
