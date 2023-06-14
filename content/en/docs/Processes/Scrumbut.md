@@ -7,59 +7,13 @@ weight: 30
 ---
 
 ### What is Scrumbut?
-Scrumbut refers to teams that adopt some Scrum principles but are not following all of them.  To Scrum adherents, Scrumbut is a defective form of Scrum (https://www.scrum.org/resources/what-scrumbut).
+Scrumbut refers to teams that adopt some Scrum principles but are not following all of them.  To Scrum adherents, Scrumbut is a defective form of Scrum (https://www.scrum.org/resources/what-scrumbut) that should be corrected.  But many teams end up doing Scrumbut because they find that a few of the core scrum practices, like retrospectives at the end of every iteration, or consistently sized iterations, or daily scrums, are a bit of a waste of time in their context.  It is possible that there are more teams using Scrumbut in the world than there are following Scrum to the letter.  And, in case you have not figured out where the name comes from, it comes from this response to team members when asked, "We are doing Scrum, but...".
 
-We are doing Scrum, but...
+### Why adopt Scrumbut?
+Adoption of Scrumbut is usually not intentional.  Rather it comes from trying to follow Scrum for a while and discovering some Scrum practice just isn't right for your context.
 
+### Why not adopt Scrumbut?
+Some who practice Scrum believe your process is flawed if you deviate from Scrum.
 
-### How does your context affect the success you will have with Scrum?
-###### *1. How does the *[Organizational Structure](/docs/elements/orgstructure/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *2. How does the *[Development Team Culture](/docs/elements/devculture/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 3. How does the *[Hiring Process](/docs/elements/hiringprocess/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *4. How does the *[Team Composition](/docs/elements/teamcomposition/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 5. How does the *[Training Provided on Code](/docs/elements/trainingoncoding/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 6. How does the *[Training Provided on 'Our Ways of Doing Things'](/docs/elements/trainingonourways/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 7. How does the *[Environment](/docs/elements/environment/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 8. How does the *[Project Selection](/docs/elements/projectselection/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 9. How does the *[Solution Purpose](/docs/elements/solutionpurpose/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *10. How do the *[Application Architecture Priorities](/docs/elements/apparchpriorities/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 11. How do the *[Security Demands](/docs/elements/securitydemands/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *12. How do the *[Requirements, Features, and Priorities](/docs/elements/rqmtsandfeatures/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 13. How do the *[Regulations](/docs/elements/regulations/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 14. How does *[Who Decides What To Do](/docs/elements/whodecides/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### *21. How does the *[Code Quality](/docs/elements/codequality/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that you will have success with *Scrum*?
-???
-###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that you will have success with *Scrum*?
-???
+### How does your context affect the probability that Scrumbut will add value to your process?
+Because Scrumbut is really just Scrum with some minor deviations, the responses to all the questions regarding how your context affects Scrumbut are the same as the responses for the questions regarding Scrum.  Please see the [responses for Scrum](/docs/processes/scrum/). 

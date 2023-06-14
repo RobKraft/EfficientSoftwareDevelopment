@@ -58,7 +58,7 @@ Who decides what to do next on your teams probably has little impact on the valu
 ###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that *retrospectives* will add value to your process?
 The way you manage projects has little impact on the value retrospectives may bring to your team, but retrospectives can have a huge impact on your project and process management practices.  When process and project management have a lot of room for improvement, retrospectives offer a lot of value.
 ###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that *retrospectives* will add value to your process?
-As with project management, the processeses you have in place for quality have no impact on the value retrospectives may bring to your team, but through retrospectives you may be able to make great improvements to your quality processes.
+As with project management, the processes you have in place for quality have no impact on the value retrospectives may bring to your team, but through retrospectives you may be able to make great improvements to your quality processes.
 ###### 17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that *retrospectives* will add value to your process?
 The plans you have for evolving the architecture of your application probably have no impact on the value retrospectives may bring to your team.
 ###### 18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that *retrospectives* will add value to your process?
