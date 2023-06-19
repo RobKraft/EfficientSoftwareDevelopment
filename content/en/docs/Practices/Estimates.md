@@ -55,7 +55,7 @@ The regulations your organization must comply with probably have no impact on th
 Who decides what to do next on your teams probably has little impact on the value estimates may bring to your process, but the decider can greatly impact whether or not projects meet their estimates.
 ###### *15. How does *[Project Management](/docs/elements/projectmanagement/)* in your context impact the probability that *estimates* will add value to your process?
 The way you manage projects may have some impact on the value estimates may bring to your process.  Well organized project management tools and processes can facilitate your ability to identify all the factors that will influence the estimates, as well as help with scheduling dependencies, planning, and accurately targeting the delivery date.
-###### *16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that *estimates* will add value to your process?
+###### 16. How do the *[Quality Processes](/docs/elements/qualityprocesses/)* in your context impact the probability that *estimates* will add value to your process?
 The processes you have in place for improving quality have no impact on the value estimates may bring to your process.
 ###### 17. How does the *[Architecture Forecasting](/docs/elements/architectureforecasting/)* in your context impact the probability that *estimates* will add value to your process?
 The plans you have for evolving the architecture of your application probably have no impact on the value estimates may bring to your process.

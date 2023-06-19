@@ -11,7 +11,6 @@ landing:
     - Efficient Software Development
   text:
     - Guidance regarding the practices and processes and philosophies to help your team improve the efficiency at which you develop software.
-    - CHECK BACK ON JULY 1st, 2023 when this site is nearly complete!
   titleColor:
   textColor:
   spaceBetweenTitleText: 5
@@ -34,7 +33,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: The Elements of Software Development
         subtitlePosition: center
-        image: images/section/auth.png
+        image: images/section/elements.png
         color: white
         button: 
           name: The Elements of Software Development
@@ -67,7 +66,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: Software Processes
         subtitlePosition: center
-        image: images/section/sqlinjection.png
+        image: images/section/processmgmt.png
         color: white
         button: 
           name: Software Processes
@@ -90,7 +89,7 @@ sections:
     cards:
       - subtitle: It's About Time
         subtitlePosition: center
-        image: images/section/transit.png
+        image: images/section/hourglass.png
         color: white
         button: 
           name: It's About Time
@@ -100,7 +99,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: How to Prioritize
         subtitlePosition: center
-        image: images/section/processmgmt.png
+        image: images/section/calendar.png
         color: white
         button: 
           name: How to Prioritize
@@ -133,7 +132,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: Parables
         subtitlePosition: center
-        image: images/section/compliance.png
+        image: images/section/meeting.png
         color: white
         button: 
           name: Parables
