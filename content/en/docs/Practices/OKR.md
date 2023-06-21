@@ -1,11 +1,11 @@
 ---
-title: "Velocity"
-description: "Considerations of how your context impacts your ability to gain value from velocity"
+title: "18. OKR"
+description: "Considerations of how your context impacts your ability to gain value from OKRs"
 date: 2023-05-23T00:00:00+05:00
 draft: false
 weight: 210
 ---
 
-### What is velocity?
-A
+### What is OKR?
+...sorry... not complete yet. :(
 

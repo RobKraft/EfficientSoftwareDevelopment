@@ -20,4 +20,20 @@ Six sigma? (https://www.forbes.com/sites/forbestechcouncil/2021/08/10/13-tech-le
 Questions:
 * Should you re-estimate your estimates?
 * Should we block a card and leave it when we need to wait weeks for a response?
-* Technical facilitors - the opposite of technical debt
+* Technical facilitators - the opposite of technical debt
+* Should we fix bugs before working on new features?
+* Should we fix ALL the bugs?
+* Our value stream for developing features is different than for fixing bugs, so should we have a different board?
+* Should we handle bugs found in code not yet released differently than in code we have released?
+* Should we create a card for something we already coded and tested?
+
+Upcoming Articles/Blog Posts:
+* Prioritizing features Part 1: What is most valuable?
+* Prioritizing features Part 2: Factoring in the cost to get ROI.
+* Prioritizing features Part 3: Ignoring ROI and working on eliminating risks.
+* Prioritizing features Part 4: Sequence matters.
+* Prioritizing features Part 5: Combining features to reduce costs.
+* Prioritizing features Part 6: Estimating is design and development.
+* Prioritizing features Part 7: Research spikes, learning opportunities, quick fixes for onboarding.
+
+* How to decide when you should throw away your custom-developed solution, and find a solution you can purchase.
