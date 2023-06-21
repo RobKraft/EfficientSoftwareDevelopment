@@ -7,7 +7,8 @@ weight: 110
 ---
 
 ### What are story points?
-...sorry... not complete yet. :(
+Story points are a technique used by some agile teams to estimate the costs of developing software features or fixing bugs.
+
 
 
 
