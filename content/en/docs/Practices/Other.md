@@ -9,6 +9,7 @@ weight: 200
 * SBOM Audits - Few elements, other than the technologies used, affect your ability to do SBOM audits.
 * SCA (Static Code Analysis) - Few elements, other than the technologies used, affect your ability to do static code analysis.
 
-### What is an SBOM Audit?
+
+
 
 

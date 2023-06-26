@@ -58,6 +58,8 @@ The processes you have in place to assess the quality of your software probably 
 The plans you have for evolving the architecture of your application probably have no impact on your team's ability to use pair programming.
 ###### 18. How do your *[DevOps](/docs/elements/devops/)* in your context impact the probability that *Pair Programming* will add value to your process?
 Currently DevOps don't impact your ability to pair program, but it is worth noting that artificial intelligence, such as Github's Copilot, may become the pair for each developer, replacing their human pairing partner.  In addition, Static Code Analysis (SCA) tools, that scan your code as you work or immediately after you commit work may become good enough to replace a human pair.  *Please read the response below about how "Code" affects pair programming.*
+A slow DevOps pipeline may benefit greatly from pair programming.  If your team is unable to quickly fix bugs in the deployed environment, then avoiding deploying bugs may become more important.  This is particularly true if the cost/impact of bugs is high.  On the other hand, if you can quickly fix deployed bugs, and the cost of those bugs is not high, then the cost of pair programming may not be worth the return in fewer delivered bugs.
+
 ###### 19. How does the *[Architecture](/docs/elements/architecture/)* in your context impact the probability that *Pair Programming* will add value to your process?
 The architecture of your application probably has no impact on your team's ability to use pair programming.
 ###### 20. How does the *[Code](/docs/elements/code/)* in your context impact the probability that *Pair Programming* will add value to your process?
@@ -66,8 +68,10 @@ Some programming languages support pair programming better than others because t
 I don't think the quality of the existing code impacts your ability to pair program, but code with poor quality can benefit greatly from pair programmers working to insure changes are correct.
 ###### 22. How does the *[Application Quality](/docs/elements/appquality/)* in your context impact the probability that *Pair Programming* will add value to your process?
 The current quality of your application probably has no impact on your team's ability to use pair programming.
-###### 23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that *Pair Programming* will add value to your process?
+###### *23. How does the *[Deployment Environment](/docs/elements/deployenvironment/)* in your context impact the probability that *Pair Programming* will add value to your process?
 The environment into which your software is deployed probably has no impact on your team's ability to use pair programming.
+
+The environment into which your software is deployed may have a lot of impact on the value your team can gain from pair programming.  If your team is unable to quickly fix bugs in the deployed environment, then avoiding deploying bugs may become more important.  This is particularly true if the cost/impact of bugs is high.  On the other hand, if you can quickly fix deployed bugs, and the cost of those bugs is not high, then the cost of pair programming may not be worth the return in fewer delivered bugs.
 ###### 24. How does the *[Product Training](/docs/elements/producttraining/)* in your context impact the probability that *Pair Programming* will add value to your process?
 How your team trains people using your solution probably has no impact on your team's ability to use pair programming.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *Pair Programming* will add value to your process?
