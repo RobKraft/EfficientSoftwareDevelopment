@@ -95,3 +95,7 @@ When not to estimate effort:
 3. Emergencies or urgent tasks: Estimating effort may not be necessary or feasible for emergencies or urgent tasks that require immediate attention. In these cases, it may be more important to simply complete the task as quickly and efficiently as possible.
 
 Overall, estimating effort can be a helpful tool for software developers when used in the right context. Teams should consider the size and complexity of the task, as well as the level of certainty and urgency, when deciding whether to estimate effort or use another method.
+
+
+#### Resources
+[Estimation Isn't for Everyone](https://open.nytimes.com/estimation-isnt-for-everyone-a72484f88b27)

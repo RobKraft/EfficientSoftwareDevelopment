@@ -12,16 +12,36 @@ In addition to the general differences in solution purpose between companies, th
 
 An application that is just a proof of concept or demo or just to learn a new technology should be developed differently than one that is core to our business.  If we followed our most stringent processes for every solution/project, we may often be incurring waste of time on things that add no value.
 
-##### What is the purpose of the solution in your context?
-* Core internal business solution (An ERP solution, An Accounting solution)
-* Software sold to customers (Quickbooks, Microsoft Office)
-* Solution such as a web site used to generate revenue (Facebook.com, Amazon.com)
-* An app we deploy to an app store (Facebook, GMail, Stock Trading App)
-* Embedded software controlling some hardware (Software in your car, Software in your GPS)
-* Minor internal business solution for a few users (Track equipment for the purchasing department, Track vacation schedules for Accounting Department)
-* Software requested by a client that the client will own (You are contracted to build a software solution and deliver it by the end of this year)
-* Solve a specific problem or answer a specific question then discard it (A python script/program to analyze data, get results, and use for a report)
-* A prototype (Build it to see if anyone would be interested in paying for it.  If so, then build a better version of it.)
-* A proof of concept (Can we make this technology or idea work for us?)
-* To help a developer learn new skills (The little app will help our new developer learn skills to use on our other solutions.)
+##### What is the intended purpose of the solution in your context?
+1. **Core Internal Business Solution**  
+   - *Purpose*: Optimize key internal operations (e.g., ERP, accounting systems).
 
+2. **Commercial Software Product**  
+   - *Purpose*: Generate revenue by selling software to customers (e.g., QuickBooks, Microsoft Office).
+
+3. **Revenue-Generating Online Platform**  
+   - *Purpose*: Provide a service to users and generate revenue via online platforms (e.g., Amazon, Facebook.com).
+
+4. **Deployed Mobile or Web App**  
+   - *Purpose*: Deliver functionality through app stores or web access (e.g., Facebook app, GMail).
+
+5. **Embedded Software**  
+   - *Purpose*: Operate or control physical hardware (e.g., car software, GPS firmware).
+
+6. **Minor Internal Business Tool**  
+   - *Purpose*: Support small-scale or department-specific tasks (e.g., tracking equipment or schedules).
+
+7. **Client-Owned Custom Software**  
+   - *Purpose*: Fulfill a client's request for a custom-built solution they will own.
+
+8. **Disposable Solution for a Specific Task**  
+   - *Purpose*: Solve a single-use problem or provide insights, then discard (e.g., data analysis scripts).
+
+9. **Prototype**  
+   - *Purpose*: Test market interest with a basic version of the solution.
+
+10. **Proof of Concept**  
+    - *Purpose*: Demonstrate feasibility or validate a technology or approach.
+
+11. **Learning Tool**  
+    - *Purpose*: Enable developers to practice and gain skills for future projects.
