@@ -95,3 +95,10 @@ When retrospectives may not be very valuable:
 3. When there is a lack of trust or open communication: Retrospectives rely on trust and open communication among team members. If there is a lack of trust or communication, team members may be hesitant to share their thoughts and opinions, and the retrospective may not be as effective.
 
 Overall, retrospectives can be a valuable tool for software developers when used in the right context. Teams should ensure that they are committed to continuous improvement, that there is open communication and trust among team members, and that the team is the right size to have productive discussions. If these conditions are not met, retrospectives may not be as valuable.
+
+
+#### Questions to ask your time about retrospectives:
+* Should we require regular, frequent, retrospectives (at least every 2 weeks or sprint)?
+* Should we hold infrequent but regular retrospectives?
+* Should we only have a retrospective when we feel a need for it?
+* Should we invest resources in learning how to make retrospectives successful?

@@ -89,3 +89,11 @@ Bad contexts for test-driven development:
 3. New technology: If you're working with a new technology that you're not familiar with, TDD may not be the best choice. It can be difficult to write tests for code that you don't fully understand, and this can slow down development.
 
 Overall, TDD can be a powerful technique for improving software quality and collaboration, but it's important to consider the specific circumstances of each project before deciding to use it.
+
+
+#### Questions to ask your team about TDD:
+* Should we require all coding to be done using TDD?
+* Should we require some coding to be done as TDD?
+* Should we allow any coding to be done using TDD?
+* Should we invest resources in creating an environment to facilitate TDD?
+* Should we invest resources in learning how to make TDD successful?

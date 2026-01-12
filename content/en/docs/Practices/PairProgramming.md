@@ -94,3 +94,11 @@ Bad contexts for pair programming software code changes:
 3. Introverted personalities: If one or both team members are introverted or prefer to work alone, pair programming may not be the best choice. It's important to consider the personality and work style of each team member before deciding to pair program.
 
 Overall, pair programming can be a valuable technique for software development, but it's important to consider the specific circumstances of each project before deciding to use it.
+
+
+#### Questions to ask your team about Pair Programming:
+* Should we require all coding to be done as pair programming?
+* Should we require some coding to be done as pair programming?
+* Should we allow any coding to be done as pair programming?
+* Should we invest resources in creating an environment to facilitate pair programming?
+* Should we invest resources in learning how to make pair programming successful?

@@ -80,3 +80,12 @@ The environment into which your software is deployed may have some impact on you
 How your team trains people using your solution has no impact on your team's ability to automate builds and the running of tests.
 ###### 25. How does the *[Support](/docs/elements/support/)* in your context impact the probability that *automating builds and the running of tests* will add value to your process?
 How your team supports people using your solution has no impact on your team's ability to automate builds and the running of tests.
+
+
+
+#### Questions to ask your team about DevOps:
+* Should we automate our build?
+* Should we automate our deploy?
+* Should we invest more in automating our build and deploy?
+* Should we automate builds upon checkin?
+* Should we automate deploys upon checkin?
