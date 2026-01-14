@@ -22,3 +22,38 @@ Decisions need to be made frequently and by those that know the work best to avo
 * Are development teams dedicated to specific products and features or do they allocate their time across several?
 * Do developers just pull the next ticket off the queue and work on it?
 * Can developers or the development team work on multiple things at the same time?
+
+
+##### Decision Types
+Product decisions
+
+Technical decisions
+
+Architectural decisions
+
+Operational decisions
+
+##### Decision‑Making Models
+RACI
+
+Architecture review boards
+
+Product councils
+
+Team‑level autonomy
+
+##### Anti‑Patterns
+Decision bottlenecks
+
+Decisions made without context
+
+“Design by committee”
+
+No clear escalation path
+
+##### Templates
+Decision log
+
+RACI matrix
+
+Governance model overview

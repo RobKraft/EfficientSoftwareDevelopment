@@ -11,3 +11,38 @@ Software development usually requires the ability to track many details, assign 
 
 
 The tools we use to track our tasks impacts our decisions because the tools often focus us on specific things, which is good in some cases, but not as good in others when the tools don't remind us or raise our awareness of other, more valuable tasks.  When we have multiple sources, such as a kanban task board, bug tracking system, email inbox, and slack channels all providing us things we could do, it can be easily to overlook items and inadvertently perform less valuable tasks.  Tools often offer ways to prioritize items, but don't account for the fact that priorities can change, can have different priority to different people, or that the priority of some items change depending on what other tasks may currently be performed.  (If we need to reboot the server and incur downtown, let's replace the RAM while we are at it, or remove the http headers) (If we are doing feature A in our shopping cart, we should go ahead and do feature W also).
+
+
+##### Project Management Styles
+Agile (Scrum, Kanban)
+
+Hybrid models
+
+Waterfall for regulated environments
+
+Lean delivery
+
+##### Good Practices
+Clear milestones
+
+Transparent progress reporting
+
+Risk management
+
+Cross‑team coordination
+
+##### Anti‑Patterns
+Over‑planning
+
+No backlog refinement
+
+Status meetings with no outcomes
+
+Ignoring technical debt
+
+##### Templates
+Project charter
+
+Risk register
+
+Delivery roadmap

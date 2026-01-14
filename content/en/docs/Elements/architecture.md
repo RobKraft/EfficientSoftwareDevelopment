@@ -26,3 +26,26 @@ The architecture selected for an application may not have much impact on the abi
 * A static web site
 * A phone app
 * A combination of many of the above*
+
+##### Architecture Styles
+* Layered architecture
+* Microservices
+* Event‑driven systems
+* Modular monoliths
+
+##### Architecture Concerns
+* Scalability
+* Reliability
+* Security
+* Maintainability
+
+##### Anti‑Patterns
+* Distributed monolith
+* Over‑engineering
+* No architectural ownership
+* Architecture that doesn’t evolve
+
+##### Templates
+* Architecture decision record (ADR)
+* System context diagram
+* Component model

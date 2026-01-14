@@ -16,5 +16,25 @@ Other challenges in project selection include:
 * and, in companies driven by MBOs and OKRs, aligning the most valuable projects with the company and department goals so that the most valuable projects can be worked on, instead of the projects that are easy to align with a quarterly or annual OKR or company goal. 
 
 
+##### Example Selection Models
+* ROI‑based prioritization
+* Customer‑demand‑driven
+* Architecture‑investment cycles
+* Balanced scorecard
+* “Now / Next / Later” roadmap
 
+##### Good Practices
+* Joint decision‑making between PM + engineering
+* Sequencing projects to reduce rework
+* Proof‑of‑concept before major investment
+
+##### Anti‑Patterns
+* PMO selects everything without engineering input
+* Only short‑term wins prioritized
+* OKR‑driven selection that ignores long‑term health
+
+##### Templates
+* Project scoring matrix
+* Prioritization workshop agenda
+* Architecture investment proposal
 

@@ -20,3 +20,40 @@ The amount of effort organizations invest in improving quality is not simply a r
 * We auto run tests when changes are committed
 * We auto run tests when changes are pushed to a central repo
 * We auto run tests on a regular schedule
+
+
+##### Quality Dimensions
+Functional correctness
+
+Performance
+
+Reliability
+
+Usability
+
+Security
+
+##### Quality Activities
+Code reviews
+
+Automated testing
+
+Exploratory testing
+
+Performance benchmarking
+
+##### Anti‑Patterns
+Testing only at the end
+
+No definition of done
+
+Manual testing only
+
+Ignoring non‑functional requirements
+
+##### Templates
+Quality strategy
+
+Test plan
+
+Definition of done checklist

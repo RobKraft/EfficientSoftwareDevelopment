@@ -28,3 +28,27 @@ Development cultures exist along a continuim.  The two extremes of the continuim
 * Developers are unhappy with the work they are doing
 * Developers love their development process
 * Developers hate their development process
+
+
+##### Example Culture Archetypes
+* High‑trust, high‑autonomy culture
+* Command‑and‑control culture
+* Craftsmanship culture
+* Experimentation culture
+
+##### Indicators of a Healthy Culture
+* Psychological safety behaviors
+* Cross‑team collaboration patterns
+* Developer‑led improvement initiatives
+* Customer empathy rituals
+
+##### Anti‑Patterns
+* Blame‑oriented retrospectives
+* Hero culture
+* “Just get it done” pressure cycles
+* Incentives that reward individual output over team outcomes
+
+##### Templates
+* Culture self‑assessment checklist
+* Team norms charter
+* “Ways we work” one‑pager

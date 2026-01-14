@@ -11,4 +11,36 @@ Every software solution is brought into existence by the implementation of a suc
 Beyond identifying and prioritizing requirements and features, development teams use different approaches to track the progress of development and also to keep track of when features are provided to customers or end users.  Some software development teams provide little progress information other than perhaps letting the customer know when the feature is available; while others provide daily visualization of the status of the feature and thorough records of when it was delivered.  As with most every element, the correct implementation depends upon many factors in the software development environment.  While it may sound like every team should provide a current status of features under development, such actions could produce waste if no one desires to consume that information regularly.
 
 
+##### Types of Requirements
+Functional requirements
 
+Non‑functional requirements
+
+Regulatory requirements
+
+Cross‑cutting concerns
+
+##### Good Practices
+Clear acceptance criteria
+
+User‑story mapping
+
+Feature slicing
+
+Prioritization frameworks
+
+##### Anti‑Patterns
+Vague requirements
+
+“Just build it” directives
+
+No validation with users
+
+Requirements that conflict with constraints
+
+##### Templates
+User story template
+
+Feature definition canvas
+
+Requirements traceability matrix

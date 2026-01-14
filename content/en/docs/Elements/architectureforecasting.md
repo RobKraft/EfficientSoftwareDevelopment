@@ -26,3 +26,27 @@ Although this section is already lengthy, the most valuable aspects of forecasti
 * Marketing teams and product owners let us know what new technologies they want to adopt.  Until we get a request from them, we don't think about it.
 * We strive to keep our existing tools, frameworks, SDKs, and dependencies current to take advantage of new functionality and to better transition to future changes.
 * We don't take time, or don't have time, to invest in updating our existing tools and frameworks.  As long as they meet our immediate needs we will use them as is.
+
+
+##### Forecasting Techniques
+* Architecture runway
+* Technical radar
+* Scenario planning
+* Capacity modeling
+
+##### Good Practices
+* Regular architecture reviews
+* Incremental evolution
+* Tracking emerging risks
+* Aligning architecture with product strategy
+
+##### Anti‑Patterns
+* Big‑up‑front architecture
+* No forecasting at all
+* Ignoring tech debt trends
+* Architecture disconnected from roadmap
+
+##### Templates
+* Architecture forecast report
+* Tech radar template
+* Risk horizon map

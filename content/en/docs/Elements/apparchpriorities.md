@@ -18,11 +18,12 @@ Are we writing software to prevent the asteroid from striking earth in 42 days, 
 * Fast.  Our software needs to eke out as much computing power as possible when running on the best hardware and networks. (Bitcoin mining)
 * Our software needs to process an enormous amount of data quickly. (Netflix streaming)
 * Security.  Our application must never be hacked or compromised.  (Banking applications)
+* Customer Engagement (TikTok, Facebook, Gambling Apps, Games)
 
 ##### How critical is your application?  How important is it that you 'get it right'?
 * Very low, static content or a game with no ramifications if there are bugs
 * Minor errors are probably easily dealt with or resolved.  Very few people impacted.
-* Fewer few people use the software but significant financial loss can occur for some errors
+* Few people use the software but significant financial loss can occur for some errors
 * Significant financial loss can occur for significant errors
 * Significant loss can occur to our customers or clients if there are errors in our code
 * Loss of life can occur

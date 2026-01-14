@@ -45,3 +45,21 @@ An application that is just a proof of concept or demo or just to learn a new te
 
 11. **Learning Tool**  
     - *Purpose*: Enable developers to practice and gain skills for future projects.
+
+
+##### How Purpose Affects Practices
+* Testing rigor
+* Documentation depth
+* Security requirements
+* Deployment frequency
+* Architecture choices
+
+##### Anti‑Patterns
+* Treating prototypes like production systems
+* Over‑engineering disposable tools
+* Under‑engineering mission‑critical systems
+
+##### Templates
+* Purpose classification worksheet
+* “Right‑sized process” decision tree
+* Risk profile matrix

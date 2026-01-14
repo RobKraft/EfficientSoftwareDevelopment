@@ -23,3 +23,26 @@ Like architecture, code, which in this context refers to both the computer langu
 
 ###### Considerations
 * The more custom code you have the more you need to invest in processes and tools for developing and maintaining and testing code along with growth of developer training.
+
+##### Code Categories
+* Business logic
+* Integration code
+* Infrastructure code
+* UI code
+
+##### Good Practices
+* Readability first
+* Small, focused functions
+* Consistent naming
+* Clear error handling
+
+##### Anti‑Patterns
+* God classes
+* Copy‑paste programming
+* Hidden side effects
+* Overuse of global state
+
+##### Templates
+* Coding standards guide
+* Error‑handling patterns
+* Module structure examples
