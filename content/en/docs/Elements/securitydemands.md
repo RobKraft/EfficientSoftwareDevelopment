@@ -33,37 +33,25 @@ As the security demands increase, so do the resources and time required increase
 
 
 ##### Example Security Categories
-Authentication and authorization
-
-Data encryption (in transit and at rest)
-
-Secrets management
-
-Threat modeling
-
-Audit logging and traceability
+* Authentication and authorization
+* Data encryption (in transit and at rest)
+* Secrets management
+* Threat modeling
+* Audit logging and traceability
 
 ##### How Security Shapes Development
-Required coding patterns
-
-Deployment constraints
-
-Testing depth and frequency
-
-Access control for environments
+* Required coding patterns
+* Deployment constraints
+* Testing depth and frequency
+* Access control for environments
 
 ##### Anti‑Patterns
-Hard‑coded secrets
-
-No threat modeling
-
-Security as an afterthought
-
-Over‑privileged service accounts
+* Hard‑coded secrets
+* No threat modeling
+* Security as an afterthought
+* Over‑privileged service accounts
 
 ##### Templates
-Security requirements checklist
-
-Threat model worksheet
-
-Secrets rotation plan
+* Security requirements checklist
+* Threat model worksheet
+* Secrets rotation plan

@@ -28,35 +28,24 @@ Writing code is not the last step in delivering a software solution.  After the 
 
 
 ##### DevOps Capabilities
-Continuous integration
-
-Continuous delivery
-
-Infrastructure as code
-
-Monitoring and observability
+ Continuous integration
+* Continuous delivery
+* Infrastructure as code
+* Monitoring and observability
 
 ##### Good Practices
-Automated pipelines
-
-Shift‑left testing
-
-Immutable infrastructure
-
-Blameless postmortems
+* Automated pipelines
+* Shift‑left testing
+* Immutable infrastructure
+* Blameless postmortems
 
 ##### Anti‑Patterns
-Manual deployments
-
-No monitoring
-
-Dev vs Ops silos
-
-“DevOps team” as a silo
+* Manual deployments
+* No monitoring
+* Dev vs Ops silos
+* “DevOps team” as a silo
 
 ##### Templates
-CI/CD pipeline blueprint
-
-Incident response guide
-
-Deployment checklist
+* CI/CD pipeline blueprint
+* Incident response guide
+* Deployment checklist

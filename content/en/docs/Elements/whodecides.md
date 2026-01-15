@@ -25,35 +25,24 @@ Decisions need to be made frequently and by those that know the work best to avo
 
 
 ##### Decision Types
-Product decisions
-
-Technical decisions
-
-Architectural decisions
-
-Operational decisions
+* Product decisions
+* Technical decisions
+* Architectural decisions
+* Operational decisions
 
 ##### Decision‑Making Models
-RACI
-
-Architecture review boards
-
-Product councils
-
-Team‑level autonomy
+* RACI
+* Architecture review boards
+* Product councils
+* Team‑level autonomy
 
 ##### Anti‑Patterns
-Decision bottlenecks
-
-Decisions made without context
-
-“Design by committee”
-
-No clear escalation path
+* Decision bottlenecks
+* Decisions made without context
+* “Design by committee”
+* No clear escalation path
 
 ##### Templates
-Decision log
-
-RACI matrix
-
-Governance model overview
+* Decision log
+* RACI matrix
+* Governance model overview

@@ -22,37 +22,25 @@ Software solutions are deployed to many different environments, most notably as 
 
 
 ##### Environment Types
-Development
-
-QA
-
-Staging
-
-Production
-
-Sandbox environments
+* Development
+* QA
+* Staging
+* Production
+* Sandbox environments
 
 ##### Environment Concerns
-Configuration management
-
-Secrets handling
-
-Network access
-
-Observability
+* Configuration management
+* Secrets handling
+* Network access
+* Observability
 
 ##### Anti‑Patterns
-“Snowflake” environments
-
-No parity between staging and prod
-
-Manual configuration
-
-Untracked environment changes
+* “Snowflake” environments
+* No parity between staging and prod
+* Manual configuration
+* Untracked environment changes
 
 ##### Templates
-Environment specification
-
-Configuration matrix
-
-Deployment topology diagram
+* Environment specification
+* Configuration matrix
+* Deployment topology diagram

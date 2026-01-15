@@ -14,35 +14,24 @@ The tools we use to track our tasks impacts our decisions because the tools ofte
 
 
 ##### Project Management Styles
-Agile (Scrum, Kanban)
-
-Hybrid models
-
-Waterfall for regulated environments
-
-Lean delivery
+* Agile (Scrum, Kanban)
+* Hybrid models
+* Waterfall for regulated environments
+* Lean delivery
 
 ##### Good Practices
-Clear milestones
-
-Transparent progress reporting
-
-Risk management
-
-Cross‑team coordination
+* Clear milestones
+* Transparent progress reporting
+* Risk management
+* Cross‑team coordination
 
 ##### Anti‑Patterns
-Over‑planning
-
-No backlog refinement
-
-Status meetings with no outcomes
-
-Ignoring technical debt
+* Over‑planning
+* No backlog refinement
+* Status meetings with no outcomes
+* Ignoring technical debt
 
 ##### Templates
-Project charter
-
-Risk register
-
-Delivery roadmap
+* Project charter
+* Risk register
+* Delivery roadmap

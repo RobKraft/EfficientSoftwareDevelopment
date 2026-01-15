@@ -11,35 +11,24 @@ Although small software development teams often don’t even consider how their 
 
 
 ##### Training Types
-Customer onboarding
-
-Internal product training
-
-Feature‑specific training
-
-Role‑based training
+* Customer onboarding
+* Internal product training
+* Feature‑specific training
+* Role‑based training
 
 ##### Good Practices
-Scenario‑based learning
-
-Hands‑on exercises
-
-Clear learning objectives
-
-Feedback loops
+* Scenario‑based learning
+* Hands‑on exercises
+* Clear learning objectives
+* Feedback loops
 
 ##### Anti‑Patterns
-Training with no context
-
-Outdated materials
-
-One‑time training only
-
-No measurement of effectiveness
+* Training with no context
+* Outdated materials
+* One‑time training only
+* No measurement of effectiveness
 
 ##### Templates
-Training curriculum
-
-Onboarding guide
-
-Feature walkthrough script
+* Training curriculum
+* Onboarding guide
+* Feature walkthrough script

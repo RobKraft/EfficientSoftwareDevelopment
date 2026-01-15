@@ -23,37 +23,25 @@ The amount of effort organizations invest in improving quality is not simply a r
 
 
 ##### Quality Dimensions
-Functional correctness
-
-Performance
-
-Reliability
-
-Usability
-
-Security
+* Functional correctness
+* Performance
+* Reliability
+* Usability
+* Security
 
 ##### Quality Activities
-Code reviews
-
-Automated testing
-
-Exploratory testing
-
-Performance benchmarking
+* Code reviews
+* Automated testing
+* Exploratory testing
+* Performance benchmarking
 
 ##### Anti‑Patterns
-Testing only at the end
-
-No definition of done
-
-Manual testing only
-
-Ignoring non‑functional requirements
+* Testing only at the end
+* No definition of done
+* Manual testing only
+* Ignoring non‑functional requirements
 
 ##### Templates
-Quality strategy
-
-Test plan
-
-Definition of done checklist
+* Quality strategy
+* Test plan
+* Definition of done checklist

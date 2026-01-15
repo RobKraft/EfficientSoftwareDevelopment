@@ -12,35 +12,24 @@ Governance, Risk management, and Compliance (GRC) is a familiar term to many org
 Some industry regulations require that you demonstrate you are sufficiently securing application data and tracking access to that data.  In order to comply with the regulations, you may find great value in some practices such as code reviews and automated Devops and SCA tools that instantly report the state of your compliance.  The requirements often have value and merit on their own, but your need to report on them encourages you to adopt practices that make it easy to do so.
 
 ##### Example Regulatory Domains
-Data privacy (GDPR, CCPA)
-
-Financial compliance (SOX, PCI‑DSS)
-
-Healthcare (HIPAA)
-
-Accessibility (WCAG)
+* Data privacy (GDPR, CCPA)
+* Financial compliance (SOX, PCI‑DSS)
+* Healthcare (HIPAA)
+* Accessibility (WCAG)
 
 ##### How Regulations Affect Development
-Documentation rigor
-
-Testing requirements
-
-Deployment approvals
-
-Data retention policies
+* Documentation rigor
+* Testing requirements
+* Deployment approvals
+* Data retention policies
 
 ##### Anti‑Patterns
-Ignoring regulatory constraints
-
-Over‑compliance that slows delivery
-
-No audit trail
-
-Unclear ownership of compliance tasks
+* Ignoring regulatory constraints
+* Over‑compliance that slows delivery
+* No audit trail
+* Unclear ownership of compliance tasks
 
 ##### Templates
-Compliance checklist
-
-Data classification guide
-
-Audit preparation worksheet
+* Compliance checklist
+* Data classification guide
+* Audit preparation worksheet

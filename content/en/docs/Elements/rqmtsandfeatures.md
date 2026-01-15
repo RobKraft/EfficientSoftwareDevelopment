@@ -12,35 +12,24 @@ Beyond identifying and prioritizing requirements and features, development teams
 
 
 ##### Types of Requirements
-Functional requirements
-
-Non‑functional requirements
-
-Regulatory requirements
-
-Cross‑cutting concerns
+* Functional requirements
+* Non‑functional requirements
+* Regulatory requirements
+* Cross‑cutting concerns
 
 ##### Good Practices
-Clear acceptance criteria
-
-User‑story mapping
-
-Feature slicing
-
-Prioritization frameworks
+* Clear acceptance criteria
+* User‑story mapping
+* Feature slicing
+* Prioritization frameworks
 
 ##### Anti‑Patterns
-Vague requirements
-
-“Just build it” directives
-
-No validation with users
-
-Requirements that conflict with constraints
+* Vague requirements
+* “Just build it” directives
+* No validation with users
+* Requirements that conflict with constraints
 
 ##### Templates
-User story template
-
-Feature definition canvas
-
-Requirements traceability matrix
+* User story template
+* Feature definition canvas
+* Requirements traceability matrix

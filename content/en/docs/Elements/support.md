@@ -11,35 +11,24 @@ Like product training, when a solution lacks good support processes or support p
 
 
 ##### Support Models
-Tiered support
-
-Dev‑on‑call
-
-Community support
-
-Dedicated customer success
+* Tiered support
+* Dev‑on‑call
+* Community support
+* Dedicated customer success
 
 ##### Support Activities
-Incident triage
-
-Root‑cause analysis
-
-Knowledge base maintenance
-
-Customer communication
+* Incident triage
+* Root‑cause analysis
+* Knowledge base maintenance
+* Customer communication
 
 ##### Anti‑Patterns
-No on‑call rotation
-
-Repeated incidents with no fixes
-
-Poor communication during outages
-
-No documentation of known issues
+* No on‑call rotation
+* Repeated incidents with no fixes
+* Poor communication during outages
+* No documentation of known issues
 
 ##### Templates
-Incident report
-
-Support playbook
-
-Knowledge base article template
+* Incident report
+* Support playbook
+* Knowledge base article template
