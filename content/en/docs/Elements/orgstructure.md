@@ -17,6 +17,7 @@ The people designing and developing a software solution are determined by the or
 * A mid-sized company with many developers that are specialists and specialists join teams temporarily as needed to work on projects.  Developers report to both project managers and department managers.
 * A small company with a few developers, each of which is solely responsible for the software solution they support for internal or external clients.
 * A company with developers spread out around the world working on the same product.
+* (Startup) A small team developing a product for resale.
 
 ###### Considerations
 * Consultants that will walk away from the product will focus less on investing in the long-term quality and stability of a product, especially if there is contention between the consulting company and product company.  

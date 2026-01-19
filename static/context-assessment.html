@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development Context Assessment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .intro {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .question-block {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .question-block:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .question-number {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        
+        .element-tag {
+            display: inline-block;
+            background: #e8f4f8;
+            color: #2980b9;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+        
+        .question-text {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        select {
+            width: 100%;
+            padding: 12px;
+            font-size: 1em;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            cursor: pointer;
+            transition: border-color 0.3s ease;
+        }
+        
+        select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        select:hover {
+            border-color: #3498db;
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        button:hover {
+            background: #2980b9;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .button-container {
+                display: none;
+            }
+            
+            .question-block {
+                page-break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            
+            select {
+                border: none;
+                font-weight: bold;
+                color: #2c3e50;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+            }
+            
+            .intro {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #ecf0f1;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Software Development Context Assessment</h1>
+    
+    <div class="intro">
+        <p><strong>Welcome to the Context Assessment Tool!</strong></p>
+        <p>This questionnaire will help you identify and document the key elements of your software development context. Answer all 30 questions by selecting the option that best describes your situation. Once complete, you can print your selections for reference or discussion with your team.</p>
+        <p><em>Note: Each question relates to one of the 25 fundamental elements that influence software development practices.</em></p>
+    </div>
+    
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressBar"></div>
+    </div>
+    
+    <form id="assessmentForm">
+        
+        <!-- Question 1: Development Culture -->
+        <div class="question-block">
+            <span class="question-number">Q1</span>
+            <span class="element-tag">Development Culture</span>
+            <div class="question-text">How would you describe your team's overall work environment and culture?</div>
+            <select name="q1" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="love">Developers love the company, teammates, and direct managers</option>
+                <option value="benefits">Developers appreciate benefits but have concerns about teammates/managers</option>
+                <option value="unhappy-leadership">Developers are unhappy with directors and business owners</option>
+                <option value="love-mission">Developers love the company mission and goals</option>
+                <option value="disconnect-mission">Developers are not aligned with company mission</option>
+                <option value="love-work">Developers love the work they are doing</option>
+                <option value="unhappy-work">Developers are unhappy with the work they are doing</option>
+            </select>
+        </div>
+        
+        <!-- Question 2: Team Composition -->
+        <div class="question-block">
+            <span class="question-number">Q2</span>
+            <span class="element-tag">Team Composition</span>
+            <div class="question-text">What is the experience level composition of your development team?</div>
+            <select name="q2" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="mostly-senior">Mostly senior developers (5+ years experience)</option>
+                <option value="balanced">Balanced mix of senior, mid-level, and junior developers</option>
+                <option value="mostly-mid">Mostly mid-level developers (2-5 years experience)</option>
+                <option value="mostly-junior">Mostly junior developers (less than 2 years experience)</option>
+                <option value="specialists">Mix of specialists in different domains</option>
+                <option value="generalists">Mostly full-stack generalists</option>
+            </select>
+        </div>
+        
+        <!-- Question 3: Team Composition - Domain Knowledge -->
+        <div class="question-block">
+            <span class="question-number">Q3</span>
+            <span class="element-tag">Team Composition</span>
+            <div class="question-text">How familiar is your team with the product domain and customer needs?</div>
+            <select name="q3" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="experts">Most team members are domain experts</option>
+                <option value="some-experts">Some team members have domain expertise</option>
+                <option value="learning">Team is currently learning the domain</option>
+                <option value="minimal">Minimal domain knowledge on the team</option>
+                <option value="customer-interaction">Regular customer interaction provides domain knowledge</option>
+            </select>
+        </div>
+        
+        <!-- Question 4: Organization Structure -->
+        <div class="question-block">
+            <span class="question-number">Q4</span>
+            <span class="element-tag">Organization Structure</span>
+            <div class="question-text">How is your development organization structured?</div>
+            <select name="q4" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="feature-teams">A small company with one team of developers supporting all product capabilities</option>
+                <option value="component-teams">A large company with hundreds of developers writing software</option>
+                <option value="platform-teams">A consulting company that writes software for a client</option>
+                <option value="hybrid">A mid-sized company with many developers that are specialists that join teams temporarily</option>
+                <option value="single-team">A company with developers spread out around the world working on the same product</option>
+                <option value="functional">(Startup) A small team developing a product for resale</option>
+            </select>
+        </div>
+        
+        <!-- Question 5: Who Decides -->
+        <div class="question-block">
+            <span class="question-number">Q5</span>
+            <span class="element-tag">Who Decides</span>
+            <div class="question-text">Who decides what developers work on each day?</div>
+            <select name="q5" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="team-decides">Development team collectively decides</option>
+                <option value="po-decides">Product owner dictates daily work</option>
+                <option value="pm-decides">Project manager assigns tasks</option>
+                <option value="dev-autonomy">Individual developers have full autonomy</option>
+                <option value="pull-queue">Developers pull next item from prioritized queue</option>
+                <option value="collaborative">Collaborative decision between PM and engineering</option>
+            </select>
+        </div>
+        
+        <!-- Question 6: Project Management -->
+        <div class="question-block">
+            <span class="question-number">Q6</span>
+            <span class="element-tag">Project Management</span>
+            <div class="question-text">What project management methodology does your team primarily use?</div>
+            <select name="q6" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="scrum">Scrum with sprints and ceremonies</option>
+                <option value="kanban">Kanban with continuous flow</option>
+                <option value="scrumban">Scrumban (hybrid approach)</option>
+                <option value="waterfall">Waterfall with distinct phases</option>
+                <option value="none">No formal process</option>
+                <option value="custom">Custom process tailored to our needs</option>
+            </select>
+        </div>
+        
+        <!-- Question 7: Requirements and Features -->
+        <div class="question-block">
+            <span class="question-number">Q7</span>
+            <span class="element-tag">Requirements & Features</span>
+            <div class="question-text">How are requirements and features typically defined?</div>
+            <select name="q7" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="detailed-upfront">Detailed requirements defined upfront</option>
+                <option value="user-stories">User stories with acceptance criteria</option>
+                <option value="epics-breakdown">Epics broken down iteratively</option>
+                <option value="customer-driven">Direct customer requests drive features</option>
+                <option value="minimal">Minimal documentation, mostly verbal</option>
+                <option value="brd-specs">Developers determine requirements and do the coding</option>
+            </select>
+        </div>
+        
+        <!-- Question 8: Project Selection -->
+        <div class="question-block">
+            <span class="question-number">Q8</span>
+            <span class="element-tag">Project Selection</span>
+            <div class="question-text">How does your organization prioritize and select projects?</div>
+            <select name="q8" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="roi-based">ROI and business value analysis</option>
+                <option value="customer-demand">Customer demand and requests</option>
+                <option value="pmo-decides">PMO decides without engineering input</option>
+                <option value="collaborative">Joint decision between business and engineering</option>
+                <option value="architecture-balanced">Balance of features and architecture improvements</option>
+                <option value="okr-driven">OKR and goal alignment</option>
+            </select>
+        </div>
+        
+        <!-- Question 9: Solution Purpose -->
+        <div class="question-block">
+            <span class="question-number">Q9</span>
+            <span class="element-tag">Solution Purpose</span>
+            <div class="question-text">What is the primary purpose of the software you develop?</div>
+            <select name="q9" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="core-business">Core internal business solution (ERP, CRM)</option>
+                <option value="commercial-product">Commercial software product for sale</option>
+                <option value="online-platform">Revenue-generating online platform</option>
+                <option value="mobile-web-app">Deployed mobile or web application</option>
+                <option value="embedded">Embedded software in hardware</option>
+                <option value="internal-tool">Minor internal business tool</option>
+                <option value="custom-client">Client-owned custom software</option>
+                <option value="disposable">Disposable solution for specific task</option>
+                <option value="prototype">Prototype or proof of concept</option>
+                <option value="learning">Learning tool for skill development</option>
+            </select>
+        </div>
+        
+        <!-- Question 10: Application Quality -->
+        <div class="question-block">
+            <span class="question-number">Q10</span>
+            <span class="element-tag">Application Quality</span>
+            <div class="question-text">How would you characterize the overall quality expectations for your application?</div>
+            <select name="q10" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="mission-critical">Mission-critical, lives depend on it</option>
+                <option value="high-uptime">High uptime and reliability required</option>
+                <option value="standard-quality">Standard business application quality</option>
+                <option value="rapid-iteration">Rapid iteration prioritized over perfection</option>
+                <option value="experimental">Experimental with tolerance for issues</option>
+            </select>
+        </div>
+        
+        <!-- Question 11: Security Demands -->
+        <div class="question-block">
+            <span class="question-number">Q11</span>
+            <span class="element-tag">Security Demands</span>
+            <div class="question-text">What level of security is required for your application?</div>
+            <select name="q11" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="highly-regulated">Highly regulated (healthcare, finance, government)</option>
+                <option value="pci-compliance">PCI or similar compliance required</option>
+                <option value="user-data">Handles sensitive user data</option>
+                <option value="standard-security">Standard security practices</option>
+                <option value="internal-only">Internal-only with minimal exposure</option>
+                <option value="public-data">Mostly public data with basic security</option>
+            </select>
+        </div>
+        
+        <!-- Question 12: Regulations -->
+        <div class="question-block">
+            <span class="question-number">Q12</span>
+            <span class="element-tag">Regulations</span>
+            <div class="question-text">What regulatory requirements must your software comply with?</div>
+            <select name="q12" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="fda-medical">FDA or medical device regulations</option>
+                <option value="hipaa">HIPAA for healthcare data</option>
+                <option value="gdpr">GDPR or data privacy regulations</option>
+                <option value="sox">SOX or financial regulations</option>
+                <option value="multiple">Multiple regulatory frameworks</option>
+                <option value="industry-standards">Industry-specific standards</option>
+                <option value="none">No specific regulatory requirements</option>
+            </select>
+        </div>
+        
+        <!-- Question 13: Support -->
+        <div class="question-block">
+            <span class="question-number">Q13</span>
+            <span class="element-tag">Support</span>
+            <div class="question-text">How is customer support handled for your application?</div>
+            <select name="q13" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="dev-team-support">Development team provides direct support</option>
+                <option value="dedicated-support">Dedicated support team separate from dev</option>
+                <option value="tiered">Tiered support with escalation to dev</option>
+                <option value="minimal">Minimal support, mostly self-service</option>
+                <option value="24-7">24/7 support required</option>
+                <option value="business-hours">Business hours support only</option>
+            </select>
+        </div>
+        
+        <!-- Question 14: Hiring Process -->
+        <div class="question-block">
+            <span class="question-number">Q14</span>
+            <span class="element-tag">Hiring Process</span>
+            <div class="question-text">How would you describe your organization's hiring process for developers?</div>
+            <select name="q14" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="rigorous">Rigorous multi-stage technical interviews</option>
+                <option value="culture-fit">Focus on culture fit and potential</option>
+                <option value="quick">Quick hiring to fill positions fast</option>
+                <option value="team-involved">Team heavily involved in hiring decisions</option>
+                <option value="hr-driven">HR-driven with minimal technical input</option>
+                <option value="selective">Highly selective, only top talent</option>
+            </select>
+        </div>
+        
+        <!-- Question 15: Training on Our Ways -->
+        <div class="question-block">
+            <span class="question-number">Q15</span>
+            <span class="element-tag">Training on Our Ways</span>
+            <div class="question-text">What onboarding and training is provided for new team members?</div>
+            <select name="q15" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="comprehensive">Comprehensive onboarding program (weeks/months)</option>
+                <option value="mentorship">Assigned mentor and structured learning</option>
+                <option value="documentation">Self-paced with documentation</option>
+                <option value="pair-programming">Learning through pair programming</option>
+                <option value="minimal">Minimal onboarding, learn on the job</option>
+                <option value="none">No formal onboarding</option>
+            </select>
+        </div>
+        
+        <!-- Question 16: Training on Coding -->
+        <div class="question-block">
+            <span class="question-number">Q16</span>
+            <span class="element-tag">Training on Coding</span>
+            <div class="question-text">What opportunities exist for developers to learn new technologies and improve skills?</div>
+            <select name="q16" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="regular-training">Regular training budget and time allocation</option>
+                <option value="conferences">Conference and workshop attendance</option>
+                <option value="internal">Internal training and knowledge sharing</option>
+                <option value="self-directed">Self-directed learning encouraged</option>
+                <option value="limited">Limited training opportunities</option>
+                <option value="none">No dedicated training time or budget</option>
+            </select>
+        </div>
+        
+        <!-- Question 17: Product Training -->
+        <div class="question-block">
+            <span class="question-number">Q17</span>
+            <span class="element-tag">Product Training</span>
+            <div class="question-text">How well do developers understand the product domain and customer needs?</div>
+            <select name="q17" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="extensive">Extensive product training for all developers</option>
+                <option value="customer-access">Regular access to customers and users</option>
+                <option value="documentation">Comprehensive product documentation available</option>
+                <option value="shadowing">Developers shadow support or sales</option>
+                <option value="limited">Limited product knowledge</option>
+                <option value="none">No product training provided</option>
+            </select>
+        </div>
+        
+        <!-- Question 18: Architecture Priorities -->
+        <div class="question-block">
+            <span class="question-number">Q18</span>
+            <span class="element-tag">Architecture Priorities</span>
+            <div class="question-text">What are your primary architecture priorities?</div>
+            <select name="q18" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="scalability">Scalability for growth</option>
+                <option value="reliability">Reliability and uptime</option>
+                <option value="security">Security and compliance</option>
+                <option value="maintainability">Maintainability and evolvability</option>
+                <option value="performance">Performance and speed</option>
+                <option value="cost">Cost optimization</option>
+                <option value="time-to-market">Time to market</option>
+            </select>
+        </div>
+        
+        <!-- Question 19: Architecture -->
+        <div class="question-block">
+            <span class="question-number">Q19</span>
+            <span class="element-tag">Architecture</span>
+            <div class="question-text">What architectural style best describes your application?</div>
+            <select name="q19" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="multi-layered">Multi-layered architecture</option>
+                <option value="microservices">Microservices-based</option>
+                <option value="client-server">Client-server application</option>
+                <option value="monolithic">Monolithic application</option>
+                <option value="event-driven">Event-driven system</option>
+                <option value="modular-monolith">Modular monolith</option>
+                <option value="serverless">Serverless architecture</option>
+                <option value="embedded">Embedded software</option>
+            </select>
+        </div>
+        
+        <!-- Question 20: Architecture Forecasting -->
+        <div class="question-block">
+            <span class="question-number">Q20</span>
+            <span class="element-tag">Architecture Forecasting</span>
+            <div class="question-text">How does your team approach architecture planning and evolution?</div>
+            <select name="q20" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="long-term-vision">Long-term architecture vision with roadmap</option>
+                <option value="evolutionary">Evolutionary architecture approach</option>
+                <option value="ad-hoc">Ad-hoc changes as needed</option>
+                <option value="refactoring">Regular refactoring and modernization</option>
+                <option value="greenfield">Greenfield, designing from scratch</option>
+                <option value="legacy-constraints">Constrained by legacy systems</option>
+            </select>
+        </div>
+        
+        <!-- Question 21: Code -->
+        <div class="question-block">
+            <span class="question-number">Q21</span>
+            <span class="element-tag">Code</span>
+            <div class="question-text">How much custom code do you have?</div>
+            <select name="q21" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="javascript-typescript">We have none</option>
+                <option value="java">We occasionally build some apps in low code/no code</option>
+                <option value="csharp">We have some code in a traditional coding language we occasionally need to modify</option>
+                <option value="python">We keep one person busy full time mostly writing code and supporting apps</option>
+                <option value="cpp">We have several developers coding our apps</option>
+                <option value="go">We have a team: coders, product owner(s), and maybe even dedicated tester</option>
+                <option value="ruby">We have multiple teams because they work on different products, or loosely related products</option>
+                <option value="php">We have many teams working on the same large product</option>
+                <option value="multiple">We have many teams working on many unrelated products</option>
+            </select>
+        </div>
+        
+        <!-- Question 22: Code Quality -->
+        <div class="question-block">
+            <span class="question-number">Q22</span>
+            <span class="element-tag">Code Quality</span>
+            <div class="question-text">How would you rate the overall quality of your codebase?</div>
+            <select name="q22" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="excellent">Excellent - clean, well-tested, maintainable</option>
+                <option value="good">Good - mostly clean with some technical debt</option>
+                <option value="mixed">Mixed - some areas good, others problematic</option>
+                <option value="legacy">Legacy code with significant technical debt</option>
+                <option value="poor">Poor - difficult to maintain and change</option>
+            </select>
+        </div>
+        
+        <!-- Question 23: Quality Processes -->
+        <div class="question-block">
+            <span class="question-number">Q23</span>
+            <span class="element-tag">Quality Processes</span>
+            <div class="question-text">What quality assurance processes are in place?</div>
+            <select name="q23" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="comprehensive">Comprehensive automated testing (unit, integration, E2E)</option>
+                <option value="manual-qa">Manual QA team testing</option>
+                <option value="code-reviews">Mandatory code reviews</option>
+                <option value="ci-cd">CI/CD with automated checks</option>
+                <option value="basic">Basic testing only</option>
+                <option value="minimal">Minimal quality processes</option>
+            </select>
+        </div>
+        
+        <!-- Question 24: DevOps -->
+        <div class="question-block">
+            <span class="question-number">Q24</span>
+            <span class="element-tag">DevOps</span>
+            <div class="question-text">How do you deploy your software?</div>
+            <select name="q24" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="advanced">We don’t deploy, we make low code no code changes directly in the production environment</option>
+                <option value="established">We copy files and paste changes into production when/if needed</option>
+                <option value="developing">We manually build the artifacts, then copy those files</option>
+                <option value="basic">We have automated our build process to product output files that we deploy to our production locations</option>
+                <option value="none1">We have automated our deployment to copy files and changes files and settings where needed</option>
+                <option value="none2">We use a third party tool to build and package what we need to deploy</option>
+                <option value="none3">We use a third party tool to deploy</option>
+                <option value="none4">We don’t deploy, we just use the code to get results then can discard the code</option>
+                <option value="none5">We auto build when changes are pushed into a repo</option>
+                <option value="none6">We auto build on a regular schedule</option>
+                <option value="none7">We auto deploy to test when changes are pushed into a repo</option>
+                <option value="none8">We auto deploy to production when changes are pushed into a repo</option>
+                <option value="none9">We develop software for customers and deployment depends on them</option>
+            </select>
+        </div>
+        
+        <!-- Question 25: Deployment Environment -->
+        <div class="question-block">
+            <span class="question-number">Q25</span>
+            <span class="element-tag">Deployment Environment</span>
+            <div class="question-text">Where is your application primarily deployed?</div>
+            <select name="q25" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="cloud-native">Cloud-native (AWS, Azure, GCP)</option>
+                <option value="hybrid">Hybrid cloud and on-premises</option>
+                <option value="on-premises">On-premises data center</option>
+                <option value="saas">SaaS platform</option>
+                <option value="client-servers">Client servers</option>
+                <option value="desktop">Desktop application</option>
+                <option value="mobile">Mobile app stores</option>
+                <option value="embedded">Embedded devices</option>
+            </select>
+        </div>
+        
+        <!-- Question 26: Environment -->
+        <div class="question-block">
+            <span class="question-number">Q26</span>
+            <span class="element-tag">Environment</span>
+            <div class="question-text">How many environments do you maintain?</div>
+            <select name="q26" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="dev-staging-prod">Dev, Staging, Production</option>
+                <option value="multiple">Multiple (Dev, QA, UAT, Staging, Production)</option>
+                <option value="dev-prod">Dev and Production only</option>
+                <option value="prod-only">Production only</option>
+                <option value="many">Many environments for different purposes</option>
+            </select>
+        </div>
+        
+        <!-- Question 27: Application Architecture Priorities -->
+        <div class="question-block">
+            <span class="question-number">Q27</span>
+            <span class="element-tag">Architecture Priorities</span>
+            <div class="question-text">How often do you revisit and refactor your architecture?</div>
+            <select name="q27" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="continuous">Continuously as part of regular development</option>
+                <option value="quarterly">Quarterly or planned intervals</option>
+                <option value="as-needed">As needed when pain points arise</option>
+                <option value="rarely">Rarely, only for major changes</option>
+                <option value="never">Never, architecture is fixed</option>
+            </select>
+        </div>
+        
+        <!-- Question 28: Code Quality Practices -->
+        <div class="question-block">
+            <span class="question-number">Q28</span>
+            <span class="element-tag">Code Quality</span>
+            <div class="question-text">What is the code quality of your existing code?</div>
+            <select name="q28" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="pair-programming">Well-architected, easy to maintain, and virtually free of defects</option>
+                <option value="tdd">Mostly structured, maintainable with modest effort, and has few defects</option>
+                <option value="static-analysis">Structured in parts, requires frequent refactoring, and has occasional defects</option>
+                <option value="code-reviews-only">Inconsistent structure, difficult to maintain, and produces noticeable defects</option>
+                <option value="standards">Poorly structured, risky to modify, and generates frequent defects</option>
+                <option value="none">Ad-hoc, unmaintainable, and heavily bug-ridden</option>
+            </select>
+        </div>
+        
+        <!-- Question 29: Development Culture - Improvement -->
+        <div class="question-block">
+            <span class="question-number">Q29</span>
+            <span class="element-tag">Development Culture</span>
+            <div class="question-text">How does your team approach continuous improvement?</div>
+            <select name="q29" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="regular-retros">Regular retrospectives with action items</option>
+                <option value="experimentation">Culture of experimentation and learning</option>
+                <option value="bottom-up">Bottom-up improvement initiatives</option>
+                <option value="top-down">Top-down mandated improvements</option>
+                <option value="ad-hoc">Ad-hoc improvements when issues arise</option>
+                <option value="none">No formal improvement process</option>
+            </select>
+        </div>
+        
+        <!-- Question 30: Overall Context -->
+        <div class="question-block">
+            <span class="question-number">Q30</span>
+            <span class="element-tag">Overall Context</span>
+            <div class="question-text">Which statement best describes your organization's approach to software development?</div>
+            <select name="q30" onchange="updateProgress()">
+                <option value="">-- Select an answer --</option>
+                <option value="mature">Mature with established practices and culture</option>
+                <option value="evolving">Evolving and improving continuously</option>
+                <option value="startup">Startup mode - move fast and iterate</option>
+                <option value="traditional">Traditional waterfall approach</option>
+                <option value="struggling">Struggling to find the right approach</option>
+                <option value="transitioning">Transitioning to new practices</option>
+            </select>
+        </div>
+        
+    </form>
+    
+    <div class="button-container">
+        <button onclick="printAssessment()">📄 Print Assessment</button>
+    </div>
+    
+    <script>
+        function updateProgress() {
+            const form = document.getElementById('assessmentForm');
+            const selects = form.querySelectorAll('select');
+            let answered = 0;
+            
+            selects.forEach(select => {
+                if (select.value !== '') {
+                    answered++;
+                }
+            });
+            
+            const percentage = (answered / selects.length) * 100;
+            document.getElementById('progressBar').style.width = percentage + '%';
+        }
+        
+        function printAssessment() {
+            const form = document.getElementById('assessmentForm');
+            const selects = form.querySelectorAll('select');
+            let unanswered = 0;
+            
+            selects.forEach(select => {
+                if (select.value === '') {
+                    unanswered++;
+                }
+            });
+            
+            if (unanswered > 0) {
+                const confirm = window.confirm(`You have ${unanswered} unanswered question(s). Do you want to print anyway?`);
+                if (!confirm) {
+                    return;
+                }
+            }
+            
+            window.print();
+        }
+        
+        // Initialize progress bar
+        updateProgress();
+    </script>
+</body>
+</html>
