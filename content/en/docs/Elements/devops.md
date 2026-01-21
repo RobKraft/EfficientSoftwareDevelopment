@@ -28,7 +28,7 @@ Writing code is not the last step in delivering a software solution.  After the 
 
 
 ##### DevOps Capabilities
- Continuous integration
+* Continuous integration
 * Continuous delivery
 * Infrastructure as code
 * Monitoring and observability

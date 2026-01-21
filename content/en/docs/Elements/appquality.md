@@ -19,19 +19,3 @@ The application quality is not the same as the code quality.  Both quality level
 * Accessibility
 * User experience
 
-##### Quality Activities
-* Load testing
-* Chaos engineering
-* Accessibility audits
-* UX testing
-
-##### Anti‑Patterns
-* No performance testing
-* Ignoring accessibility
-* UX as an afterthought
-* No monitoring in production
-
-##### Templates
-* App quality scorecard
-* Performance test plan
-* Accessibility checklist

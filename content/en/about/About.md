@@ -8,7 +8,6 @@ weight = 1
 My name is Rob Kraft.
 
 * I've been writing software since 1981.
-* I started a role as 
 * I was a Microsoft Certified Solution Developer (MCSD)
 * I taught Microsoft Certified courses on SQL Server
 * I co-authored some books on SQL Server decades ago.
@@ -25,5 +24,5 @@ Despite all the SQL Server stuff, my primary role has been application developer
   * [SQL Server Login Template](https://github.com/RobKraft/SQLServerLoginTemplate)
   * SQL Server Code Builders - hmm - guess I need to make this public soon
 
-* My Blog[CSharpDeveloper.wordpress.com](https://csharpdeveloper.wordpress.com/)
+* My Blog [CSharpDeveloper.wordpress.com](https://csharpdeveloper.wordpress.com/)
 * Slides from [recent presentations](https://robkraft.azurewebsites.net/)

@@ -11,17 +11,107 @@ Every software solution is brought into existence by the implementation of a suc
 Beyond identifying and prioritizing requirements and features, development teams use different approaches to track the progress of development and also to keep track of when features are provided to customers or end users.  Some software development teams provide little progress information other than perhaps letting the customer know when the feature is available; while others provide daily visualization of the status of the feature and thorough records of when it was delivered.  As with most every element, the correct implementation depends upon many factors in the software development environment.  While it may sound like every team should provide a current status of features under development, such actions could produce waste if no one desires to consume that information regularly.
 
 
-##### Types of Requirements
-* Functional requirements
-* Non‑functional requirements
-* Regulatory requirements
-* Cross‑cutting concerns
 
-##### Good Practices
-* Clear acceptance criteria
-* User‑story mapping
-* Feature slicing
-* Prioritization frameworks
+## 1. Requirements Discovery Practices
+
+Different projects require different mechanisms to learn what to build.
+
+### If requirements are well-known early
+
+- Up-front requirements docs
+- Architecture design docs
+- Longer release cycles
+
+Work well because the risk is in building correctly, not in discovering needs.
+
+### If requirements emerge late or change often
+
+- Ongoing customer interviews
+- Continuous backlog grooming
+- Lightweight stories
+- Iterative reprioritization
+
+Work well because the risk is in building the right thing, not documenting the wrong thing.
+
+## 2. Prioritization & Decision Authority
+
+Who controls feature sequence determines which planning rituals fit.
+
+### If a product owner dictates priority
+
+- Scrum backlogs and sprint planning align well.
+
+### If developers control priority
+
+- Kanban with technical pull queues or XP-style planning aligns better.
+
+### If priority is negotiated
+
+- Joint mechanisms (OKRs, roadmaps, quarterly planning) help align incentives.
+
+## 3. Feedback & Collaboration Patterns
+
+The level of clarification access influences ceremony needs.
+
+### If developers have constant product access
+
+- Minimal documentation and lightweight tickets suffice.
+
+### If product access is rare
+
+- Heavier specs, acceptance criteria, and validation steps prevent rework.
+
+This is the “communication bandwidth” dimension: low bandwidth → more formal artifacts.
+
+## 4. Progress Tracking & Transparency
+
+Different audiences demand different visibility.
+
+### If stakeholders need frequent status
+
+- Visible Kanban boards
+- Burndowns / cumulative flow
+- Release notes with timestamps
+
+### If stakeholders don’t monitor progress actively
+
+- Lightweight tracking avoids status reporting waste.
+
+
+## 5. Waste Avoidance Principle
+
+Don’t add process cost without a consumer.
+
+### Examples of mismatches
+
+- Daily standups with no decisions → waste
+- Detailed specs for trivial UI tweaks → waste
+- Zero progress visibility for critical clients → friction and distrust
+
+## 6. Practical Implications (Condensed)
+
+To choose practices intelligently, assess three axes:
+
+- **Requirements volatility**
+	- Stable → plan more up front
+	- Volatile → iterate and learn
+- **Decision authority**
+	- Clear → optimize flow
+	- Shared → optimize alignment
+- **Communication bandwidth**
+	- High → fewer artifacts
+	- Low → more structure
+
+## 7. Multiple Valid Best-Fits (Not one “best practice”)
+
+Different models excel in different conditions:
+
+- **Scrum** — Best when requirements emerge and product owner is available.
+- **Kanban** — Best when work varies in size and arrival time, and priority shifts often.
+- **SAFe / enterprise planning** — Best when dependencies require synchronized release trains.
+- **XP** — Best when customer sits with developers and changes requirements constantly.
+- **Waterfall** — Best when requirements are fixed, regulated, or contractual.
+
 
 ##### Anti‑Patterns
 * Vague requirements
@@ -29,7 +119,4 @@ Beyond identifying and prioritizing requirements and features, development teams
 * No validation with users
 * Requirements that conflict with constraints
 
-##### Templates
-* User story template
-* Feature definition canvas
-* Requirements traceability matrix
+---

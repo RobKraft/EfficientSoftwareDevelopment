@@ -15,6 +15,8 @@ Experienced developers are a valuable asset to any team, but the tools, language
 * Tooling mastery (IDEs, debuggers, profilers)
 * Architecture patterns workshops
 * Code quality and maintainability sessions
+* Lunch and Learn (watch a one-hour YouTube video together)
+* Lunch and Learn (Team member shares what they know about some part of your software)
 
 ##### Example Curricula
 * “From novice to productive developer in 90 days”

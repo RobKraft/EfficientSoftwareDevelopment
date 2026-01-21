@@ -10,14 +10,15 @@ I live in the Kansas City metro area and would love to meet with you in person. 
 
 My specialties are:
 
-* .Net development
+* Leading Technical Teams
 * Architecting solutions
+* .Net development
 * SQL Server
 * Securing applications
 
 I offer the following:
 
-* I am happy to spend an hour with you at no charge to learn about your challenges and provide ideas and discover what if I can offer help.
+* I am happy to spend an hour with you at no charge to learn about your challenges and provide ideas and discover what help I can offer, if any.
 * I particularly enjoy helping non-profits pro-bono or at low reasonable rates on larger projects.
 * I offer a "second opinion" on architectures.  If you are considering starting a new solution and want to bounce your plans and ideas off the mind of another architect, please reach out.
 * I can mentor and train your developers to write better code.  Code that is CLEAN, SOLID, and easy to maintain.

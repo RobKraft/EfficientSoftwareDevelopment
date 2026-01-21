@@ -24,7 +24,7 @@ Other challenges in project selection include:
 * “Now / Next / Later” roadmap
 
 ##### Good Practices
-* Joint decision‑making between PM + engineering
+* Joint decision‑making between Product Management + engineering
 * Sequencing projects to reduce rework
 * Proof‑of‑concept before major investment
 
@@ -32,6 +32,7 @@ Other challenges in project selection include:
 * PMO selects everything without engineering input
 * Only short‑term wins prioritized
 * OKR‑driven selection that ignores long‑term health
+* Product Manager drives delivery without input from developers
 
 ##### Templates
 * Project scoring matrix

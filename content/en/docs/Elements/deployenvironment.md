@@ -20,27 +20,3 @@ Software solutions are deployed to many different environments, most notably as 
 ###### Considerations
 * When errors in production can be fixed easily and quickly, it can reduce the need for stringent and robust Quality Assurance and Testing processes.
 
-
-##### Environment Types
-* Development
-* QA
-* Staging
-* Production
-* Sandbox environments
-
-##### Environment Concerns
-* Configuration management
-* Secrets handling
-* Network access
-* Observability
-
-##### Anti‑Patterns
-* “Snowflake” environments
-* No parity between staging and prod
-* Manual configuration
-* Untracked environment changes
-
-##### Templates
-* Environment specification
-* Configuration matrix
-* Deployment topology diagram
